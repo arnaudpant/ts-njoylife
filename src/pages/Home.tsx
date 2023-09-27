@@ -1,8 +1,12 @@
+import SectionCoaching from "../components/SectionCoaching";
 import SectionHome from "../components/SectionHome";
 
 const Home: React.FC = () => {
     return (
-        <SectionHome />
+        <>
+            <SectionHome />
+            <SectionCoaching />
+        </>
     );
 };
 

@@ -1,13 +1,13 @@
 import { MapPin } from 'lucide-react';
 
-const SectionHome: React.FC = () => {
+const SectionHome = () => {
     return (
         <section className="flex flex-col md:flex-row-reverse items-center md:justify-evenly h-screen w-full bg-primaire">
 
             {/* BOX INFOS */}
             <div className="flex flex-col items-center justify-evenly h-1/2 md:w-1/2 md:h-auto mt-12 md:mt-0">
                 <div className='md:mb-4'>
-                    <h1 className="text-4xl md:text-5xl font-bold">NATUROPATHE</h1>
+                    <h1 className="text-bleu text-4xl md:text-5xl font-bold">NATUROPATHE</h1>
                     <p className='text-center pt-4'><MapPin className='inline' /> Romans sur Isère <small>(26)</small></p>
                 </div>
                 <div className="w-full">
@@ -24,7 +24,7 @@ const SectionHome: React.FC = () => {
                 {/* Plume en rotation */}
                 <div className="absolute top-0 right-2 w-12">
                     <svg version="1.1" id="plume_rotation"
-                        viewBox="0 0 120.6 111.4" enable-background="new 0 0 120.6 111.4">
+                        viewBox="0 0 120.6 111.4" enableBackground="new 0 0 120.6 111.4">
                         <path fill="#36b3a2" d="M51.9,107.2C25.8,107.6,9.4,81.7,9.4,81.7c21.3,11.3,30,3.3,30,3.3C18,89.8,2.2,73.2,2.2,73.2
 	c2.5,0,4.5-1.3,4.5-1.3c-15-19,0-47,0-47c0,3.8,3.3,3.8,3.3,3.8c1.5-6.5,6.8-10.5,6.8-10.5c-0.5,5,3.2,7,3.2,7
 	C23.8,9.7,45.1,0,45.1,0s-7.3,23.3,4.5,28s8.6,13.4,8.6,13.4c2.1,1,5.7,0.1,5.7,0.1c-7.7,5.3-3.3,23.5,16.5,22.2
