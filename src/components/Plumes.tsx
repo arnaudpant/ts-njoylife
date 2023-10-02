@@ -1,7 +1,7 @@
 interface Props {
-    height: string,
-    width: string,
-    color: string,
+    height: 48 | 64,
+    width: 48 | 64,
+    color?: "blanche" | "verte",
 }
 
 const Plumes = ({ color, height, width }: Props) => {

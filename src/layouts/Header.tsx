@@ -1,14 +1,7 @@
 import { Menu, XCircle } from 'lucide-react';
 import { useState } from 'react';
 import Navigation from './Navigation';
-
-
-
-
-
-
-
-
+import NavMobile from './NavMobile';
 
 
 const Header = () => {
@@ -16,12 +9,16 @@ const Header = () => {
     const handleToggle = () => setToggleBurger(!toggleBurger)
 
     return (
-        <header className="bg-primaire fixed w-full h-14 flex md:flex-row items-center md:justify-end px-4">
-            <button onClick={handleToggle} className='md:hidden'>
+        <>
+            <button onClick={handleToggle} className='absolute md:hidden z-50 top-2 left-2'>
                 {toggleBurger ? (<XCircle color='#7d3929' size={48} />) : (<Menu color='#7d3929' size={48} />)}
             </button>
-            <Navigation />
-        </header>
+            <header className="bg-primaire relative w-full h-14 hidden md:flex md:flex-row items-center md:justify-end px-4 z-40">
+                <Navigation />
+            </header>
+                {toggleBurger && <NavMobile />}
+
+        </>
     );
 };
 
