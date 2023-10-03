@@ -10,7 +10,7 @@ const NavMobile = () => {
             <h2 className="text-3xl pt-1">NATUROPATHE</h2>
             <img src="./navbar/navbar-joelle.png" alt="Portrait Joelle" className="w-40 rounded-full bg-secondaire mx-auto my-4" />
             <h2 className="text-4xl font-semibold pb-8">Joëlle Corda</h2>
-            <div className="flex flex-col mb-8">
+            <div className="flex flex-col mb-8 items-center">
                 {
                     NavbarLinks.map((link, index: number): ReactNode => (
                         <NavLink to={link.link} className="text-action text-2xl pb-4" key={index}>{link.title}</NavLink>

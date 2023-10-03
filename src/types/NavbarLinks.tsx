@@ -5,10 +5,6 @@ type LiensNavbar = {
 
 const NavbarLinks: LiensNavbar[] = [
     {
-        title: "Accueil",
-        link: "/"
-    },
-    {
         title: "Prestations",
         link: "/"
     },
@@ -32,14 +28,7 @@ const NavbarLinks: LiensNavbar[] = [
         title: "Evenements",
         link: "/"
     },
-    {
-        title: "A propos",
-        link: "/"
-    },
-    {
-        title: "Contact",
-        link: "/"
-    },
+
 ]
 
 export default NavbarLinks

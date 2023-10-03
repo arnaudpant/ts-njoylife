@@ -3,7 +3,6 @@ import { MapPin } from 'lucide-react';
 const SectionHome = () => {
     return (
         <section className="flex flex-col md:flex-row-reverse items-center md:justify-evenly h-screen w-full bg-primaire z-0">
-
             {/* BOX INFOS */}
             <div className="flex flex-col items-center justify-evenly h-1/2 md:w-1/2 md:h-auto mt-12 md:mt-0">
                 <div className='md:mb-4'>
