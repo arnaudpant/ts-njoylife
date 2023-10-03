@@ -1,15 +1,25 @@
 interface Props {
-    height: 48 | 64,
-    width: 48 | 64,
+    size?: "small" | "large",
     color?: "blanche" | "verte",
 }
 
-const Plumes = ({ color, height, width }: Props) => {
+
+const Plumes = ({ color = "verte", size = "small" }: Props) => {
+
+    let sizePlume: string = ""
+    switch (size) {
+        case "small":
+            sizePlume = "h-12 w-12"
+            break
+        case "large":
+            sizePlume = "h-20 w-20"
+            break
+    }
 
     if (color === "blanche") {
         return (
             <div>
-                <svg viewBox="0 0 120.6 111.4" enableBackground="new 0 0 120.6 111.4" xmlSpace="preserve" className={`h-${height} w-${width}`}>
+                <svg viewBox="0 0 120.6 111.4" enableBackground="new 0 0 120.6 111.4" xmlSpace="preserve" className={sizePlume}>
                     <path fill="#fcfcff" d="M51.9,107.2C25.8,107.6,9.4,81.7,9.4,81.7c21.3,11.3,30,3.3,30,3.3C18,89.8,2.2,73.2,2.2,73.2
                         c2.5,0,4.5-1.3,4.5-1.3c-15-19,0-47,0-47c0,3.8,3.3,3.8,3.3,3.8c1.5-6.5,6.8-10.5,6.8-10.5c-0.5,5,3.2,7,3.2,7
                         C23.8,9.7,45.1,0,45.1,0s-7.3,23.3,4.5,28s8.6,13.4,8.6,13.4c2.1,1,5.7,0.1,5.7,0.1c-7.7,5.3-3.3,23.5,16.5,22.2
@@ -24,7 +34,7 @@ const Plumes = ({ color, height, width }: Props) => {
     } else {
         return (
             <div>
-                <svg viewBox="0 0 120.6 111.4" enableBackground="new 0 0 120.6 111.4" xmlSpace="preserve" className={`h-${height} w-${width}`}>
+                <svg viewBox="0 0 120.6 111.4" enableBackground="new 0 0 120.6 111.4" xmlSpace="preserve" className={sizePlume}>
                     <path fill="#36b3a2" d="M51.9,107.2C25.8,107.6,9.4,81.7,9.4,81.7c21.3,11.3,30,3.3,30,3.3C18,89.8,2.2,73.2,2.2,73.2
                         c2.5,0,4.5-1.3,4.5-1.3c-15-19,0-47,0-47c0,3.8,3.3,3.8,3.3,3.8c1.5-6.5,6.8-10.5,6.8-10.5c-0.5,5,3.2,7,3.2,7
                         C23.8,9.7,45.1,0,45.1,0s-7.3,23.3,4.5,28s8.6,13.4,8.6,13.4c2.1,1,5.7,0.1,5.7,0.1c-7.7,5.3-3.3,23.5,16.5,22.2

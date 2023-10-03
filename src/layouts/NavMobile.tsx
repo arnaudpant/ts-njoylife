@@ -16,7 +16,7 @@ const NavMobile = () => {
                         <NavLink to={link.link} className="text-action text-2xl pb-4" key={index}>{link.title}</NavLink>
                     ))
                 }
-            <Plumes height={48} width={48} />
+            <Plumes  />
             </div>
         </nav>
     );
