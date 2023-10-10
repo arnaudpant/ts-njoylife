@@ -1,5 +1,5 @@
-import SectionCoaching from "../components/SectionCoaching";
-import SectionHome from "../components/SectionHome";
+import SectionCoaching from "../components/UI/sections/SectionCoaching";
+import SectionHome from "../components/UI/sections/SectionHome";
 
 const Home: React.FC = () => {
     return (

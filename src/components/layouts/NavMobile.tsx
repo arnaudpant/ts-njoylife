@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
-import NavbarLinks from "../types/NavbarLinks";
+import NavbarLinks from "../../types/NavbarLinks";
 import { ReactNode } from "react";
-import Plumes from "../components/Plumes";
+import Plumes from "../Plumes";
 
 const NavMobile = () => {
     return (
