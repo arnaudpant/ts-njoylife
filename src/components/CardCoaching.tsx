@@ -1,29 +1,24 @@
-interface Props {
-    title: string,
-    imgBg: string,
-    imgBgAlt: string,
-    imgAvatar: string,
-    para: string,
-    liArr: string[]
-}
+import { CardCoachingInfo } from "../types/CardsCoachingList"; 
 
-const CardCoaching = ({title, imgBg, imgBgAlt, imgAvatar, para, liArr}: Props) => {
+
+const CardCoaching = (card: CardCoachingInfo) => {
+    const {imgSrc, imgAlt, title, intro, liArr} = card
+
     return (
         <div className="">
-            <h2>{title}</h2>
+            <h3 className="text-2xl md:text-3xl m-6">{title}</h3>
             <div>
-                <img src={imgBg} alt={imgBgAlt} />
-                <img src={imgAvatar} alt="avatar" />
+                <img src={imgSrc} alt={imgAlt} />
             </div>
             <div>
-                <p>{para}</p>
+                <p>{intro}</p>
                 <ul>
                     {liArr.map((li, index) => (
                         <li key={index}>{li}</li>
                     ))}
                 </ul>
             </div>
-            <button>Cliquez pour en savoir plus</button>
+            <button className="px-4 py-2 bg-action text-blanc rounded-full">Cliquez pour en savoir plus</button>
         </div>
     );
 };
