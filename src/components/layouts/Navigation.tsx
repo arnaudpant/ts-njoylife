@@ -10,7 +10,7 @@ const Navigation = () => {
         <nav className="hidden md:block space-x-4">
             {
                 NavbarLinks.map((link, index:number): ReactNode => (
-                    <NavLink to={link.link} className="text-action" key={index}>{link.title}</NavLink> 
+                    <NavLink to={link.link} className="text-blanc" key={index}>{link.title}</NavLink> 
                 ))
             }
         </nav>
