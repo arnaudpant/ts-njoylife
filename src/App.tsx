@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Layout from "./components/layouts/Layout"
 import Home from "./pages/Home"
+import Cgu from "./pages/Cgu"
 
 
 const App: React.FC = () => {
@@ -11,6 +12,7 @@ const App: React.FC = () => {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
+          <Route path="/cgu" element={<Cgu />} />
           <Route path="/*" element={<Home />} />
         </Route>
       </Routes>
