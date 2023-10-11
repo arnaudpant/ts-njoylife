@@ -5,48 +5,53 @@ import Sections from "./Sections";
 const SectionAbout = () => {
     return (
         <Sections fond="vert">
+            {/* TITLES */}
             <h2 className="text-2xl md:text-4xl font-semibold m-5">A PROPOS DE MOI</h2>
             <h2 className="text-xl md:text-3xl m-2">Je suis Jo&euml;lle Corda</h2>
-            <h3>Naturopathe</h3>
-            <div>
-                <img src="/photos/about-joelle.png" alt="portrait de Joelle Corda" />
+            <h3 className="md:text-xl">Naturopathe</h3>
+            {/* BLOC 1 */}
+            <div className="flex flex-col md:flex-row items-center gap-8 mt-4">
+                <div className="md:w-1/3">
+                    <img src="/photos/about-joelle.png" alt="portrait de Joelle Corda" />
+                </div>
+                <div className="md:w-2/3 ml-4 md:ml-0 mr-4 md:mr-8">
+                    <p className="pb-4">
+                        Le bien-être est le fil d’argent de mon parcours
+                        professionnel depuis 30 ans.
+                    </p>
+                    <p className="pb-4">
+                        Esthéticienne de mon premier métier, je m’ouvre
+                        au langage du corps par la pratique et
+                        l’enseignement de l’expression corporelle
+                        (Brevets d’États fitness et Sports pour Tous).
+                    </p>
+                    <p className="pb-4">
+                        En 1999 J'étudie la Naturopathie en cursus
+                        intensif à l'école Euronature d'Aix en Provence,
+                        complété par le certificat de Conseillère en
+                        Nutrition & Diététique à l'école Naturilys en
+                        2017.
+                    </p>
+                    <p className="pb-4">
+                        Après le certificat de Relaxologue en 2010
+                        j’expérimente les techniques de Relaxation
+                        psycho corporelle, ainsi que la Sophrologie
+                        Caycédienne dont je suis certifiée depuis 2015.
+                    </p>
+                    <p className="pb-4">
+                        Je suis sur la voie, celle de l’épanouissement
+                        personnel et vous propose de vous partager mon
+                        savoir-faire et mon savoir-être en toute
+                        humilité.
+                    </p>
+                </div>
             </div>
-            <div>
-                <p>
-                    Le bien-être est le fil d’argent de mon parcours
-                    professionnel depuis 30 ans.
-                </p>
-                <p>
-                    Esthéticienne de mon premier métier, je m’ouvre
-                    au langage du corps par la pratique et
-                    l’enseignement de l’expression corporelle
-                    (Brevets d’États fitness et Sports pour Tous).
-                </p>
-                <p>
-                    En 1999 J'étudie la Naturopathie en cursus
-                    intensif à l'école Euronature d'Aix en Provence,
-                    complété par le certificat de Conseillère en
-                    Nutrition & Diététique à l'école Naturilys en
-                    2017.
-                </p>
-                <p>
-                    Après le certificat de Relaxologue en 2010
-                    j’expérimente les techniques de Relaxation
-                    psycho corporelle, ainsi que la Sophrologie
-                    Caycédienne dont je suis certifiée depuis 2015.
-                </p>
-                <p>
-                    Je suis sur la voie, celle de l’épanouissement
-                    personnel et vous propose de vous partager mon
-                    savoir-faire et mon savoir-être en toute
-                    humilité.
-                </p>
-            </div>
-            <div>
-                <h3>Mes diplômes</h3>
+            {/* BLOC 2 */}
+            <div className="flex flex-col justify-center items-center mt-4">
+                <h2 className="text-xl md:text-3xl m-2">Mes diplômes</h2>
                 <div className="w-10 h-10">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns: xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        viewBox="0 0 284 270.7" enable-background="new 0 0 284 270.7" xml: space="preserve">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        viewBox="0 0 284 270.7" enable-background="new 0 0 284 270.7">
                         <g>
                             <path fill="#36B3A2" d="M139.4,13.6c31.3,0,62.6,0,94,0c21.5,0,31.6,10.1,31.6,31.9c0,42.7-0.3,85.3,0.2,128
 		c0.2,19.2-10.9,32.6-31.3,31.2c-9.6-0.7-19.2-0.1-28.8-0.1c-4,0-8.4-1.1-7.3-5.8c0.5-2.4,4.8-5.6,7.6-5.8
@@ -67,36 +72,36 @@ const SectionAbout = () => {
                     </svg>
                 </div>
                 <div>
-                    <ul>
-                        <li>Naturopathe</li>
+                    <ul className="px-4 space-y-4">
+                        <li>• Naturopathe</li>
                         <li>
-                            Conseillère en Nutrition et Diététique
+                        • Conseillère en Nutrition et Diététique
                         </li>
                         <li>
-                            Brevets d’États fitness et Sports pour
+                        • Brevets d’États fitness et Sports pour
                             Tous
                         </li>
                         <li>
-                            Sophrologue certifiée RNCP
+                        • Sophrologue certifiée RNCP
                         </li>
                         <li>
-                            Relaxologue certifiée CEFER
+                        • Relaxologue certifiée CEFER
                         </li>
                         <li>
-                            Esthéticienne cosméticienne DE
+                        • Esthéticienne cosméticienne DE
                         </li>
                         <li>
-                            Membre de l’Organisation de la Médecine
+                        • Membre de l’Organisation de la Médecine
                             Naturelle et de l'Education Sanitaire
                             ainsi que du Registre des Naturopathes
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <img src="/diplomes/logo-diplome1.png" alt="logo diplome" />
-                    <img src="/diplomes/logo-diplome2.png" alt="logo diplome" />
-                    <img src="/diplomes/logo-diplome3.png" alt="logo diplome" />
-                    <img src="/diplomes/logo-diplome4.jpg" alt="logo diplome" />
+                <div className="flex flex-wrap justify-center gap-4 my-8">
+                    <img src="/diplomes/logo-diplome1.png" alt="logo diplome" className="h-28"/>
+                    <img src="/diplomes/logo-diplome2.png" alt="logo diplome" className="h-28"/>
+                    <img src="/diplomes/logo-diplome3.png" alt="logo diplome" className="h-28"/>
+                    <img src="/diplomes/logo-diplome4.jpg" alt="logo diplome" className="h-28"/>
                 </div>
             </div>
             <Plumes />
