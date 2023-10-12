@@ -1,4 +1,4 @@
-import { Adresses } from "../../types/Adresses";
+import { Adresses } from "../../types/ListAdresses";
 
 const Adress = (Adress: Adresses) => {
     return (

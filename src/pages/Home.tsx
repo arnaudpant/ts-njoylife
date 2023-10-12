@@ -5,6 +5,7 @@ import SectionCallToAction from "../components/UI/sections/SectionCallToAction";
 import SectionCoaching from "../components/UI/sections/SectionCoaching";
 import SectionHome from "../components/UI/sections/SectionHome";
 import SectionInfos from "../components/UI/sections/SectionInfos";
+import SectionMassages from "../components/UI/sections/SectionMassages";
 import SectionWhyMe from "../components/UI/sections/SectionWhyMe";
 
 const Home: React.FC = () => {
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
             <SectionHome />
             <SectionCoaching />
             <SectionAccompagnement />
+            <SectionMassages />
             <SectionAbout />
             <SectionWhyMe />
             <SectionCabinet />

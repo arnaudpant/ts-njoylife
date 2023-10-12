@@ -1,4 +1,4 @@
-import { CardsPacksList } from "../../../types/CardsPacks";
+import { CardsPacksList } from "../../../types/CardsPacksList";
 import Plumes from "../../Plumes";
 import CardsPacks from "../cards/CardsPacks";
 import Sections from "./Sections";

@@ -1,5 +1,5 @@
 import Sections from "./Sections";
-import { ListAdresses, Adresses } from '../../../types/Adresses';
+import { ListAdresses, Adresses } from '../../../types/ListAdresses';
 import Adress from "../Adress";
 import Plumes from "../../Plumes";
 

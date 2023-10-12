@@ -6,23 +6,23 @@ export type CardPacks = {
 
 export const CardsPacksList: CardPacks[] = [
     {
-        imgSrc: "",
+        imgSrc: "/cards/packs/pack-nutrition.png",
         imgAlt: "fruits et légumes",
-        title: "PACKS NUTRITION",
+        title: "NUTRITION",
     },
     {
-        imgSrc: "",
+        imgSrc: "cards/packs/pack-stress.png",
         imgAlt: "femme seule sur la plage en méditation",
-        title: "PACKS STRESS",
+        title: "STRESS",
     },
     {
-        imgSrc: "",
+        imgSrc: "cards/packs/pack-sport.png",
         imgAlt: "personnes faisant du yoga dehors",
-        title: "PACKS SPORT",
+        title: "SPORT",
     },
     {
-        imgSrc: "",
+        imgSrc: "cards/packs/pack-vitalite.png",
         imgAlt: "personne sautant de joie sur une dune de sable",
-        title: "PACKS VITALITE",
+        title: "VITALITE",
     },
 ]
