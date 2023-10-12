@@ -1,4 +1,5 @@
 import SectionAbout from "../components/UI/sections/SectionAbout";
+import SectionAccompagnement from "../components/UI/sections/SectionAccompagnement";
 import SectionCabinet from "../components/UI/sections/SectionCabinet";
 import SectionCallToAction from "../components/UI/sections/SectionCallToAction";
 import SectionCoaching from "../components/UI/sections/SectionCoaching";
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
         <>
             <SectionHome />
             <SectionCoaching />
+            <SectionAccompagnement />
             <SectionAbout />
             <SectionWhyMe />
             <SectionCabinet />
