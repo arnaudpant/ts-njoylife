@@ -3,6 +3,7 @@ import Layout from "./components/layouts/Layout"
 import Home from "./pages/Home"
 import Nutrition from "./pages/coaching/Nutrition"
 import Cgu from "./pages/Cgu"
+import Stress from "./pages/coaching/Stress"
 
 
 const App: React.FC = () => {
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/nutrition" element={<Nutrition />} />
+          <Route path="/stress" element={<Stress />} />
           <Route path="/cgu" element={<Cgu />} />
           <Route path="/*" element={<Home />} />
         </Route>
