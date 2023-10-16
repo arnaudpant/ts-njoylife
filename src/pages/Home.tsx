@@ -19,7 +19,7 @@ const Home: React.FC = () => {
             <SectionWhyMe />
             <SectionCabinet />
             <SectionCallToAction />
-            <SectionInfos />
+            <SectionInfos adress="sevigne" />
         </>
     );
 };

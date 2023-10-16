@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import { CardCoachingInfo } from "../../../types/CardsCoachingList";
 
 
 const CardCoaching = (card: CardCoachingInfo) => {
-    const { imgSrc, imgAlt, title, intro, liArr } = card
+    const { imgSrc, imgAlt, title, intro, liArr, link } = card
 
     return (
         <div className="flex flex-col w-[300px] shadow-card rounded-xl bg-white">
@@ -25,7 +26,9 @@ const CardCoaching = (card: CardCoachingInfo) => {
             </div>
             {/* CALL TO ACTION */}
             <div className="mb-4 mx-auto">
-                <button className="px-4 py-2 bg-action text-blanc rounded-full">Cliquez pour en savoir plus</button>
+                <Link to={link}>
+                    <button className="px-4 py-2 bg-action text-blanc rounded-full">Cliquez pour en savoir plus</button>
+                </Link>
             </div>
         </div>
     );

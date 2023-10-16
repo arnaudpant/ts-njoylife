@@ -3,10 +3,14 @@ import { ListAdresses, Adresses } from '../../../types/ListAdresses';
 import Adress from "../Adress";
 import Plumes from "../../Plumes";
 
+interface Props {
+    adress: string
+}
 
-const SectionInfos = () => {
 
-    const infos: Adresses[] = ListAdresses.filter(elt => elt.id === "sevigne")
+const SectionInfos = ({adress}: Props) => {
+
+    const infos: Adresses[] = ListAdresses.filter(elt => elt.id === adress)
 
     return (
         <Sections fond="vert">
