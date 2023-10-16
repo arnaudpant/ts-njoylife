@@ -5,8 +5,7 @@ import SectionInfos from "../../components/UI/sections/SectionInfos";
 const Nutrition = () => {
     return (
         <>
-
-            <div className="container flex flex-col mx-auto px-4">
+            <div className="container flex flex-col mx-auto px-4" id="top">
                 <h1 className="text-2xl md:text-4xl font-bold text-center my-4">NUTRITION</h1>
                 <p className="text-center">
                     "Retrouvez équilibre et enthousiasme par le plaisir de manger ce qui est bon pour vous"

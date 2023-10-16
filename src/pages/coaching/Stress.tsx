@@ -4,11 +4,11 @@ import SectionInfos from "../../components/UI/sections/SectionInfos";
 const Stress = () => {
     return (
         <>
-
-            <div className="container flex flex-col mx-auto px-4">
+            <div id="top"></div>
+            <div className="container flex flex-col mx-auto px-4" >
                 <h1 className="text-2xl md:text-4xl font-bold text-center my-4 mx-12">GESTION DES STRESS ET DES EMOTIONS</h1>
                 <p className="text-center">
-                    "Mes techniques visent à restaurer l'harmonie entre le corps et l'esprit"
+                    "Mes techniques visent à restaurer l'harmonie entre le corps et l'esprit" 🙏🏼
                 </p>
 
                 <div className="my-4">

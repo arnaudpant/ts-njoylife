@@ -14,7 +14,7 @@ const SectionInfos = ({adress}: Props) => {
 
     return (
         <Sections fond="vert">
-            <h2 className="text-2xl md:text-4xl font-semibold m-5">INFORMATIONS</h2>
+            <h2 className="text-2xl md:text-4xl font-semibold m-5">SEANCES</h2>
             <div className="flex flex-col md:flex-row gap-4">
                 {
                     infos.map((info, index) => (

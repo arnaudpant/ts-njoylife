@@ -26,7 +26,7 @@ const CardCoaching = (card: CardCoachingInfo) => {
             </div>
             {/* CALL TO ACTION */}
             <div className="mb-4 mx-auto">
-                <Link to={link}>
+                <Link to={`${link}#top`}>
                     <button className="px-4 py-2 bg-action text-blanc rounded-full">Cliquez pour en savoir plus</button>
                 </Link>
             </div>
