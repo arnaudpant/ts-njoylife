@@ -31,3 +31,4 @@ export const CardsMassageList: CardMassageInfo[] = [
         time: "60min" 
     },
 ]
+
