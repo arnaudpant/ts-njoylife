@@ -5,6 +5,7 @@ import Nutrition from "./pages/coaching/Nutrition"
 import Cgu from "./pages/Cgu"
 import Stress from "./pages/coaching/Stress"
 import Sport from "./pages/coaching/Sport"
+import PackVitalite from "./pages/packs/PackVitalite"
 
 
 const App: React.FC = () => {
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           <Route path="/stress" element={<Stress />} />
           <Route path="/sport" element={<Sport />} />
           <Route path="/cgu" element={<Cgu />} />
+          <Route path="/pack-vitalite" element={<PackVitalite />} />
           <Route path="/*" element={<Home />} />
         </Route>
       </Routes>

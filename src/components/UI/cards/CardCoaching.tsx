@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { CardCoachingInfo } from "../../../types/CardsCoachingList";
 
 
@@ -25,10 +24,8 @@ const CardCoaching = (card: CardCoachingInfo) => {
                 </ul>
             </div>
             {/* CALL TO ACTION */}
-            <div className="mb-4 mx-auto">
-                <Link to={`${link}#top`}>
-                    <button className="px-4 py-2 bg-action text-blanc rounded-full">Cliquez pour en savoir plus</button>
-                </Link>
+            <div className="mb-6 mx-auto">
+                    <a href={`${link}/#top-page`} className="block px-4 py-2 bg-action text-blanc rounded-full">Cliquez pour en savoir plus</a>
             </div>
         </div>
     );

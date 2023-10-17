@@ -6,8 +6,8 @@ import Sections from "./Sections";
 const SectionAccompagnement = () => {
     return (
         <Sections fond="vert">
-            <h2 className="text-2xl md:text-4xl font-semibold m-5">ACCOMPAGNEMENT INDIVIDUEL</h2>
-            <p className="px-8 pt-4 pb-8">Coaching personnalisé en pack de 4 séances.</p>
+            <h2 className="text-2xl text-center md:text-4xl font-semibold m-5">ACCOMPAGNEMENT INDIVIDUEL</h2>
+            <p className="text-xl md:text-2xl text-center px-8 pt-4 pb-8">Coaching personnalisé en pack de 4 séances.</p>
             <div className="flex flex-col md:flex-row flex-wrap justify-around gap-10">
                 {
                     CardsPacksList.map((card, index) => (
