@@ -75,36 +75,38 @@ const SectionAbout = () => {
                     <ul className="px-4 space-y-4">
                         <li>• Naturopathe</li>
                         <li>
-                        • Conseillère en Nutrition et Diététique
+                            • Conseillère en Nutrition et Diététique
                         </li>
                         <li>
-                        • Brevets d’États fitness et Sports pour
+                            • Brevets d’États fitness et Sports pour
                             Tous
                         </li>
                         <li>
-                        • Sophrologue certifiée RNCP
+                            • Sophrologue certifiée RNCP
                         </li>
                         <li>
-                        • Relaxologue certifiée CEFER
+                            • Relaxologue certifiée CEFER
                         </li>
                         <li>
-                        • Esthéticienne cosméticienne DE
+                            • Esthéticienne cosméticienne DE
                         </li>
                         <li>
-                        • Membre de l’Organisation de la Médecine
+                            • Membre de l’Organisation de la Médecine
                             Naturelle et de l'Education Sanitaire
                             ainsi que du Registre des Naturopathes
                         </li>
                     </ul>
                 </div>
                 <div className="flex flex-wrap justify-center gap-4 my-8">
-                    <img src="/diplomes/logo-diplome1.png" alt="logo diplome" className="h-28"/>
-                    <img src="/diplomes/logo-diplome2.png" alt="logo diplome" className="h-28"/>
-                    <img src="/diplomes/logo-diplome3.png" alt="logo diplome" className="h-28"/>
-                    <img src="/diplomes/logo-diplome4.jpg" alt="logo diplome" className="h-28"/>
+                    <img src="/diplomes/logo-diplome1.png" alt="logo diplome" className="h-28" />
+                    <img src="/diplomes/logo-diplome2.png" alt="logo diplome" className="h-28" />
+                    <img src="/diplomes/logo-diplome3.png" alt="logo diplome" className="h-28" />
+                    <img src="/diplomes/logo-diplome4.jpg" alt="logo diplome" className="h-28" />
                 </div>
             </div>
-            <Plumes />
+            <div className="mt-8">
+                <Plumes />
+            </div>
         </Sections>
     );
 };

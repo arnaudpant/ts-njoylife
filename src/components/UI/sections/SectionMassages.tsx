@@ -14,7 +14,7 @@ const SectionMassages = () => {
                 }
             </div>
             <h3 className="text-xl md:text-2xl font-semibold m-3">Réfléxologie ventrale</h3>
-            <CardMassage imgSrc="/cards/massages/massage-chi-nei-tsang.png" imgAlt="" title="Chi Nei Tsang" time="60min" />
+            <CardMassage imgSrc="/cards/massages/massage-chi-nei-tsang.png" imgAlt="" title="Chi Nei Tsang" time="60min" link="/massage-dien-chan" />
         </Sections>
     );
 };

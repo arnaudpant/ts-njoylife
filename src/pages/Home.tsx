@@ -1,12 +1,10 @@
-import SectionAbout from "../components/UI/sections/SectionAbout";
 import SectionAccompagnement from "../components/UI/sections/SectionAccompagnement";
-import SectionCabinet from "../components/UI/sections/SectionCabinet";
 import SectionCallToAction from "../components/UI/sections/SectionCallToAction";
 import SectionCoaching from "../components/UI/sections/SectionCoaching";
+import SectionEvenements from "../components/UI/sections/SectionEvenements";
 import SectionHome from "../components/UI/sections/SectionHome";
 import SectionInfos from "../components/UI/sections/SectionInfos";
 import SectionMassages from "../components/UI/sections/SectionMassages";
-import SectionWhyMe from "../components/UI/sections/SectionWhyMe";
 
 const Home: React.FC = () => {
     return (
@@ -15,9 +13,7 @@ const Home: React.FC = () => {
             <SectionCoaching />
             <SectionAccompagnement />
             <SectionMassages />
-            <SectionAbout />
-            <SectionWhyMe />
-            <SectionCabinet />
+            <SectionEvenements />
             <SectionCallToAction />
             <SectionInfos adress="sevigne" />
         </>
