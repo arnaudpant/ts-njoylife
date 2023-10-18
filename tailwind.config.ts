@@ -9,7 +9,7 @@ export default {
 			action: '#7d3929',
 			blanc: '#fcfcff',
 			noir: '#040f0f',
-			primairevar: '#f5f6fa',
+			primairevar: '#E8F7FA',
 			secondairevar: '#43E0CB',
 			bleu: '#32cbff'
 		},

@@ -5,7 +5,7 @@ const CardCoaching = (card: CardCoachingInfo) => {
     const { imgSrc, imgAlt, title, intro, liArr, link } = card
 
     return (
-        <div className="flex flex-col w-[300px] shadow-card rounded-xl bg-white">
+        <div className="flex flex-col w-[300px] shadow-card rounded-xl bg-blanc">
             {/* TITRE */}
             <div className="h-20 flex items-center justify-center">
                 <h3 className="text-xl text-center md:text-xl">{title}</h3>
