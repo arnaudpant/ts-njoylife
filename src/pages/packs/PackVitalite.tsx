@@ -24,6 +24,18 @@ const PackVitalite = () => {
                         </li>
                     </ul>
                 </div>
+                <div className="flex flex-wrap gap-4">
+                    <div className="mt-4 mx-auto rounded-2xl overflow-hidden">
+                        <img src="/cards/coaching/card-nutrition.jpg" alt="" />
+                    </div>
+                    <div className="mt-4 mx-auto rounded-2xl overflow-hidden">
+                        <img src="/cards/coaching/card-stress.jpg" alt="" />
+                    </div>
+                    <div className="mt-4 mx-auto rounded-2xl overflow-hidden">
+                        <img src="/cards/coaching/card-sport.jpg" alt="" />
+                    </div>
+
+                </div>
 
                 <div className="my-8 mx-auto">
                     <Plumes />

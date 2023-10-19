@@ -50,6 +50,10 @@ const Stress = () => {
                     </p>
                 </div>
 
+                <div className="mt-4 mx-auto rounded-2xl overflow-hidden">
+                    <img src="/cards/coaching/card-stress.jpg" alt="" />
+                </div>
+
                 <div className="my-4">
 
                     <h3 className="text-lg md:text-xl py-2">La Sophrologie est efficace pour la préparation mentale</h3>

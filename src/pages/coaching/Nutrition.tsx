@@ -36,6 +36,10 @@ const Nutrition = () => {
                     </ul>
                 </div>
 
+                <div className="mt-4 mx-auto rounded-2xl overflow-hidden">
+                    <img src="/cards/coaching/card-nutrition.jpg" alt="" />
+                </div>
+
                 <div className="my-4">
                     <h2 className="text-xl md:text-2xl font-semibold my-4">Déroulement d’un coaching</h2>
 

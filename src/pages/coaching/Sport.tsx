@@ -14,6 +14,7 @@ const Sport = () => {
                     <h2 className="text-xl md:text-2xl font-semibold my-4">
                         Adultes et séniors, Pré & post natal
                     </h2>
+                    
                     <p className="pb-2">
                         Retrouvez la fluidité et la tonicité de votre corps par
                         des exercices adaptés à vos besoins physiques et toutes
@@ -21,6 +22,10 @@ const Sport = () => {
                         et de ses capacités via la fonction essentielle à la vie
                         : <b>la respiration</b>
                     </p>
+                </div>
+
+                <div className="mt-4 mx-auto rounded-2xl overflow-hidden">
+                    <img src="/cards/coaching/card-sport.jpg" alt="" />
                 </div>
 
                 <div className="my-4">
