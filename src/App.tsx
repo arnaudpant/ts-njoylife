@@ -13,6 +13,7 @@ import MassageDienChan from "./pages/massages/MassageDienChan"
 import About from "./pages/About"
 import Ateliers from "./pages/Ateliers"
 import Audios from "./pages/Audios"
+import Tarifs from "./pages/Tarifs"
 
 
 const App: React.FC = () => {
@@ -31,6 +32,7 @@ const App: React.FC = () => {
           <Route path="/massage-infini" element={<MassageInfini />} />
           <Route path="/massage-kansu" element={<MassageKansu />} />
           <Route path="/massage-dien-chan" element={<MassageDienChan />} />
+          <Route path="/tarifs" element={<Tarifs />} />
           <Route path="/ateliers" element={<Ateliers />} />
           <Route path="/audios" element={<Audios />} />
           <Route path="/*" element={<Home />} />
