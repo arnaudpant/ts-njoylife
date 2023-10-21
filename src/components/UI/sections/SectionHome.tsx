@@ -23,7 +23,7 @@ const SectionHome = () => {
                 {/* IMG Woman */}
                 <img src="home/home-woman.png" className="h-full md:max-h-[700px]" />
                 {/* Plume en rotation */}
-                <div className="absolute top-0 right-4 w-12 lg:w-16 animate-[plumerotate_2s_linear_infinite]">
+                <div className="absolute top-0 right-4 w-12 lg:w-16 animate-[plumerotate_3s_linear_infinite]">
                     <svg version="1.1"
                         viewBox="0 0 120.6 111.4" enableBackground="new 0 0 120.6 111.4">
                         <path fill="#36b3a2" d="M51.9,107.2C25.8,107.6,9.4,81.7,9.4,81.7c21.3,11.3,30,3.3,30,3.3C18,89.8,2.2,73.2,2.2,73.2
@@ -35,8 +35,6 @@ const SectionHome = () => {
                     </svg>
                 </div>
             </div>
-
-
         </section>
     );
 };
