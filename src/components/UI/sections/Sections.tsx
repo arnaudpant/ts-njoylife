@@ -5,9 +5,9 @@ interface Props {
     fond?: "vert" | "blanc"
 }
 
-const Sections = ({children, fond}: Props) => {
+const Sections = ({ children, fond }: Props) => {
     return (
-        <section className={clsx("flex flex-col items-center md:justify-evenly w-full", fond === 'vert' ? 'bg-primaire':'bg-primairevar' )}>
+        <section className={clsx("flex flex-col items-center md:justify-evenly w-full", fond === 'vert' ? 'bg-primaire' : 'bg-primairevar')}>
             {children}
         </section>
     );

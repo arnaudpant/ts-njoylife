@@ -5,7 +5,6 @@ import Nutrition from "./pages/coaching/Nutrition"
 import Cgu from "./pages/Cgu"
 import Stress from "./pages/coaching/Stress"
 import Sport from "./pages/coaching/Sport"
-import PackVitalite from "./pages/packs/PackVitalite"
 import MassageCalifornien from "./pages/massages/MassageCalifornien"
 import MassageInfini from "./pages/massages/MassageInfini"
 import MassageKansu from "./pages/massages/MassageKansu"
@@ -27,7 +26,6 @@ const App: React.FC = () => {
           <Route path="/stress" element={<Stress />} />
           <Route path="/sport" element={<Sport />} />
           <Route path="/cgu" element={<Cgu />} />
-          <Route path="/pack-vitalite" element={<PackVitalite />} />
           <Route path="/massage-californien" element={<MassageCalifornien />} />
           <Route path="/massage-infini" element={<MassageInfini />} />
           <Route path="/massage-kansu" element={<MassageKansu />} />

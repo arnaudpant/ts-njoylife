@@ -13,7 +13,7 @@ const SectionInfos = ({ adress }: Props) => {
     const infos: Adresses[] = ListAdresses.filter(elt => elt.id === adress)
 
     return (
-        <Sections>
+        <Sections fond="vert">
             <h2 className="text-2xl md:text-4xl font-semibold m-5">SEANCES</h2>
             <div className="flex flex-col md:flex-row gap-4">
                 {

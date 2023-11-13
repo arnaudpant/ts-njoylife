@@ -1,25 +1,38 @@
-import { CardsPacksList } from "../../../types/CardsPacksList";
-import Plumes from "../../Plumes";
-import CardsPacks from "../cards/CardsPacks";
 import Sections from "./Sections";
 
 const SectionAccompagnement = () => {
     return (
         <Sections fond="vert">
-            <h2 className="text-2xl text-center md:text-4xl font-semibold m-5">ACCOMPAGNEMENT INDIVIDUEL</h2>
-            <p className="text-xl md:text-2xl text-center px-8 pt-4 pb-8">Coaching personnalisé en pack de 4 séances.</p>
-            <div className="flex flex-col md:flex-row flex-wrap justify-around gap-10">
-                {
-                    CardsPacksList.map((card, index) => (
-                        <CardsPacks {...card} key={index} />
-                    ))
-                }
+
+            <div className="container flex flex-col md:flex-row justify-center items-center">
+                <div className="w-full md:w-1/2 max-h-[427px]">
+                    <img src="/photos/photo-vitalite.jpg" alt="personne pleine de vitalité sautant en l'air" />
+                </div>
+
+                <div className="w-full md:w-1/2 flex flex-col justify-center text-center text-lg md:text-xl">
+                    <h2 className="text-2xl md:text-4xl font-semibold p-8">ACCOMPAGNEMENT INDIVIDUEL</h2>
+                    <p className="px-4">Coaching personnalisé en pack de 4 séances qui comprend:</p>
+                    <p className="pb-4 px-4">2 ou 3 piliers selon vos besoins:</p>
+                    <div className="mx-auto px-4">
+                        <ul className="text-left pb-4">
+                            <li>
+                                👉🏻 Nutrition / Gestion des stress
+                            </li>
+                            <li>
+                                👉🏻 Nutrition / Sport
+                            </li>
+                            <li>
+                                👉🏻 Nutrition / Gestion des stress / Sport
+                            </li>
+                        </ul>
+                    </div>
+                    <p className="pb-4 px-4">Je suis à votre disposition du début à la fin de
+                        l'accompagnement, en présentiel ou par visio/téléphone.</p>
+                    <p className="pb-4 px-4"> Vous recevez un mail après chaque séance avec des fiches,
+                        des conseils, des audios et vidéos.</p>
+                </div>
+
             </div>
-            <p className="px-8 pt-8">Je suis à votre disposition du début à la fin de
-                l'accompagnement, en présentiel ou par visio/téléphone.</p>
-            <p className="px-8 pt-2 pb-8"> Vous recevez un mail après chaque séance avec des fiches,
-                    des conseils, des audios et vidéos.</p>
-            <Plumes />
         </Sections>
     );
 };
