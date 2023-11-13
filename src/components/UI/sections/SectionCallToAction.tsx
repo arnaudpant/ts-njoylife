@@ -5,7 +5,7 @@ import Sections from "./Sections";
 const SectionCallToAction = () => {
     return (
         <Sections fond="vert">
-            <h2 className="text-2xl md:text-4xl font-semibold m-5">CONTACTEZ MOI</h2>
+            <h2 className="text-2xl md:text-4xl font-semibold m-5 pt-4">CONTACTEZ MOI</h2>
             <div>
                 <h2 className="text-xl text-center md:text-2xl m-2">JE VOUS OFFRE</h2>
                 <h2 className="text-xl text-center md:text-2xl m-2">VOTRE 1er RENDEZ-VOUS !</h2>

@@ -9,9 +9,9 @@ const Ateliers = () => {
             <Sections fond="vert">
                 <h1 className="text-2xl md:text-4xl font-bold text-center my-4">ATELIERS</h1>
                 <h2 className="text-xl md:text-2xl font-bold text-center my-4">RELAXATION SONORE</h2>
-                <p>2ème mardi de chaque mois à 20h00 à Chabeuil</p>
+                <p>2ème mardi de chaque mois à 20h00</p>
                 <p>Relaxation au tambour chamanique Bols de cristal, instruments intuitifs & voix</p>
-                <p>4ème mercredi de chaque mois à 20h00 à Bourg De Péage</p>
+                <p>4ème mercredi de chaque mois à 20h00</p>
             </Sections>
             <Sections>
                 <h2 className="text-xl md:text-2xl font-bold text-center my-4">CERCLE DE PARDON</h2>
@@ -29,9 +29,7 @@ const Ateliers = () => {
                 <p>Cette manière nouvelle d'aborder le pardon a déjà profité à des milliers de personnes, dans près
                     d'une dizaine de pays.</p>
             </Sections>
-            <div className="my-8 mx-auto">
-                <Plumes />
-            </div>
+            <Plumes />
             <SectionInfos adress="" />
         </>
     );

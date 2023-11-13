@@ -14,7 +14,7 @@ const MassageDienChan = () => {
                             Le Dien' Chan est une méthode naturelle, qui cherche à rétablir l’équilibre du corps.<br /> C’est une pratique de médecine douce préventive et curative.
                         </p>
                         <p className="py-4">
-                            En stimulant certains points et zones du visage avec de petits outils, le corps est soulagé et les douleurs sont atténuées.<br />
+                            En stimulant certains points et zones du visage avec de petits outils, le corps est soulagé et les douleurs sont atténuées.<br />
                             Cette pratique permet d’agir sur différents troubles, tels que migraine, ballonnements, bouffées de chaleur, fatigue, troubles du sommeil.…<br />
                             Elle est particulièrement connue pour la rapidité de ses effets.<br />
                             Le massage avec une huile de rose permet de lifter et relaxer le visage ayant des effets sur la totalité du corps.

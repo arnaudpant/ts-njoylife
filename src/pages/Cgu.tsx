@@ -127,9 +127,7 @@ const Cgu = () => {
                     </p>
                 </div>
             </div>
-            <div className="m-4">
                 <Plumes />
-            </div>
         </Sections>
     );
 };

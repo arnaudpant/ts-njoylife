@@ -13,8 +13,8 @@ export const ListAdresses: Adresses[] = [
         jours: "Du lundi au samedi",
         heures: "9h à 19h",
         lieu: "",
-        adresse: "11 rue Madame de Sévigné",
-        ville: "26300 Bourg de Péage"
+        adresse: "",
+        ville: ""
     },
     {
         id: "utopie",

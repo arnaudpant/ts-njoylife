@@ -28,12 +28,5 @@ export const CardsMassageList: CardMassageInfo[] = [
         time: "30min",
         link: "/massage-kansu" 
     },
-    {
-        imgSrc: "/cards/massages/massage-dien-chan.png",
-        imgAlt: "",
-        title: "Dien' Chan",
-        time: "60min",
-        link: "/massage-dien-chan" 
-    },
 ]
 

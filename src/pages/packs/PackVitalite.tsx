@@ -14,13 +14,13 @@ const PackVitalite = () => {
 
                     <ul className="pl-2 md:pl-4">
                         <li>
-                            👉🏻 Nutrition / Gestion des stress
+                            • Nutrition / Gestion des stress
                         </li>
                         <li>
-                            👉🏻 Nutrition / Sport
+                            • Nutrition / Sport
                         </li>
                         <li>
-                            👉🏻 Nutrition / Gestion des stress / Sport
+                            • Nutrition / Gestion des stress / Sport
                         </li>
                     </ul>
                 </div>

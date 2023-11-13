@@ -49,9 +49,9 @@ const Audios = () => {
                     </audio>
                 </div>
             </div>
-            <div className="mt-8">
-                <Plumes />
-            </div>
+
+            <Plumes />
+
         </Sections>
     );
 };
