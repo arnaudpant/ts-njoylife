@@ -20,23 +20,23 @@ const Stress = () => {
                     </p>
                     <ul className="pl-2 md:pl-4 pb-4">
                         <li>
-                            👉🏻 Vous libérer des tensions (physiques, émotionnelles
+                            ▸ Vous libérer des tensions (physiques, émotionnelles
                             et mentales).
                         </li>
                         <li>
-                            👉🏻 Vous ressourcer, remobiliser vos énergies.
+                            ▸ Vous ressourcer, remobiliser vos énergies.
                         </li>
                         <li>
-                            👉🏻 Vous apaiser, vous recentrer (aide au sommeil…).
+                            ▸ Vous apaiser, vous recentrer (aide au sommeil…).
                         </li>
                         <li>
-                            👉🏻 Vous faire confiance, vous estimer à votre juste valeur.
+                            ▸ Vous faire confiance, vous estimer à votre juste valeur.
                         </li>
                         <li>
-                            👉🏻 Comprendre ce mal être que vous vivez.
+                            ▸ Comprendre ce mal être que vous vivez.
                         </li>
                         <li>
-                            👉🏻 Vivre sereinement et pleinement l’instant présent;
+                            ▸ Vivre sereinement et pleinement l’instant présent;
                         </li>
                     </ul>
                     <p>
@@ -58,16 +58,14 @@ const Stress = () => {
 
                     <h3 className="text-lg md:text-xl py-2">La Sophrologie est efficace pour la préparation mentale</h3>
                     <ul className="pl-2 md:pl-4">
-                        <li>👉🏻 Aux examens, concours, entretiens d’embauche.</li>
-                        <li>👉🏻 Aux compétitions sportives.</li>
-                        <li>👉🏻 Aux interventions chirurgicales.</li>
-                        <li>👉🏻 A la naissance.</li>
+                        <li>▸ Aux examens, concours, entretiens d’embauche.</li>
+                        <li>▸ Aux compétitions sportives.</li>
+                        <li>▸ Aux interventions chirurgicales.</li>
+                        <li>▸ A la naissance.</li>
                     </ul>
 
                 </div>
-                <div className="my-8 mx-auto">
                     <Plumes />
-                </div>
             </div>
             <SectionInfos adress="sevigne" />
         </>

@@ -13,23 +13,23 @@ export const ListAdresses: Adresses[] = [
         jours: "Du lundi au samedi",
         heures: "9h à 19h",
         lieu: "",
-        adresse: "11 rue Madame de Sévigné",
-        ville: "26300 Bourg de Péage"
+        adresse: "",
+        ville: ""
     },
     {
         id: "utopie",
         jours: "Les mardis",
         heures: "",
-        lieu: "Le Bois de l'Utopie",
-        adresse: "Chemin des Blanchards",
-        ville: "26120 Chabeuil"
+        lieu: "",
+        adresse: "",
+        ville: ""
     },
     {
         id: "amour",
         jours: "Les mercredis",
         heures: "",
-        lieu: "La maison d'Amour",
-        adresse: "11 rue Madame de Sévigné",
-        ville: "26300 Bourg de Péage"
+        lieu: "",
+        adresse: "",
+        ville: ""
     },
 ]

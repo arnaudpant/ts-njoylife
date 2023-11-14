@@ -18,9 +18,7 @@ const SectionCallToAction = () => {
                 <p className="text-lg text-center pb-4">Je vous accompagne en cabinet, à domicile et à distance.</p>
                 <p className="text-lg text-center pb-4">Tarifs adaptés pour les étudiants, demandeurs d’emploi et personnes en difficultés financières.</p>
             </div>
-            <div className="mt-8">
                 <Plumes />
-            </div>
         </Sections>
     );
 };

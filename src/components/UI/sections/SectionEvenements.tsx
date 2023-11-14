@@ -17,10 +17,7 @@ const SectionEvenements = () => {
                             <h2 className="text-2xl md:text-4xl font-semibold">COURS COLLECTIFS</h2>
                             <div className="flex flex-col items-center gap-4 mt-4 text-lg">
                                 <p className="pt-8">
-                                    Venez prendre un temps pour vous au <strong>Bois de l'Utopie</strong> dans la salle du "Petit Prince", un espace très chaleureux au cœur de la nature.
-                                </p>
-                                <p className="pt-2">
-                                    Salle chauffée au poêle à bois en hiver.
+                                    Venez prendre un temps pour vous.
                                 </p>
                                 <p className="pt-2">
                                     Cours collectifs en petit groupe de 6 personnes.

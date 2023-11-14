@@ -69,10 +69,6 @@ const Audios = () => {
                         </audio>
                     </div>
                 </div>
-
-
-
-
             </div>
             <Plumes />
         </div>

@@ -22,9 +22,7 @@ const SectionInfos = ({ adress }: Props) => {
                     ))
                 }
             </div>
-            <div className="mt-8">
                 <Plumes />
-            </div>
         </Sections>
     );
 };

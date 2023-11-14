@@ -18,7 +18,7 @@ const Plumes = ({ color = "verte", size = "small" }: Props) => {
 
     if (color === "blanche") {
         return (
-            <div className="flex justify-center m-8">
+            <div className="flex justify-center mx-4 mt-5 mb-10">
                 <svg viewBox="0 0 120.6 111.4" enableBackground="new 0 0 120.6 111.4" xmlSpace="preserve" className={sizePlume}>
                     <path fill="#fcfcff" d="M51.9,107.2C25.8,107.6,9.4,81.7,9.4,81.7c21.3,11.3,30,3.3,30,3.3C18,89.8,2.2,73.2,2.2,73.2
                         c2.5,0,4.5-1.3,4.5-1.3c-15-19,0-47,0-47c0,3.8,3.3,3.8,3.3,3.8c1.5-6.5,6.8-10.5,6.8-10.5c-0.5,5,3.2,7,3.2,7
@@ -33,7 +33,7 @@ const Plumes = ({ color = "verte", size = "small" }: Props) => {
         )
     } else {
         return (
-            <div className="flex justify-center m-8">
+            <div className="flex justify-center mx-4 mt-5 mb-10">
                 <svg viewBox="0 0 120.6 111.4" enableBackground="new 0 0 120.6 111.4" xmlSpace="preserve" className={sizePlume}>
                     <path fill="#36b3a2" d="M51.9,107.2C25.8,107.6,9.4,81.7,9.4,81.7c21.3,11.3,30,3.3,30,3.3C18,89.8,2.2,73.2,2.2,73.2
                         c2.5,0,4.5-1.3,4.5-1.3c-15-19,0-47,0-47c0,3.8,3.3,3.8,3.3,3.8c1.5-6.5,6.8-10.5,6.8-10.5c-0.5,5,3.2,7,3.2,7

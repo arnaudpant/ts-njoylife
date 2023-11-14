@@ -4,10 +4,10 @@ import SectionInfos from "../../components/UI/sections/SectionInfos";
 const MassageCalifornien = () => {
     return (
         <>
-            <div className="container flex flex-col md:flex-row mx-auto mt-14 md:mt-0 px-4" id="top-page">
-                
+            <div className=" flex flex-col md:flex-row justify-center flex-1 items-start mt-14 md:mt-0 px-4" id="top-page">
+
                 {/* TEXT */}
-                <div className="md:w-1/2 text-center p-8">
+                <div className="md:w-1/2 max-w-[600px] text-center p-8">
                     <h1 className="text-2xl md:text-4xl font-bold text-center my-4">MASSAGE CALIFORNIEN</h1>
 
                     <div className="my-4">
@@ -24,17 +24,13 @@ const MassageCalifornien = () => {
                 </div>
 
                 {/* IMAGE */}
-                <div className="mx-auto md:w-1/2">
-                    <img src="/photos/photo-cours-collectif.jpg" alt="groupe de personnes enlassés" className="h-full bg-contain" />
+                <div className="md:w-1/2 max-w-[600px] mt-14 md:mt-0 p-8  overflow-hidden">
+                    <img src="/cards/massages/massage-californien.png" alt="groupe de personnes enlassés" className="h-full bg-contain rounded-xl" />
                 </div>
 
             </div>
 
-
-
-            <div className="my-8 mx-auto">
-                <Plumes />
-            </div>
+            <Plumes />
 
 
             <SectionInfos adress="sevigne" />
