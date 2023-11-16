@@ -21,16 +21,28 @@ const Nutrition = () => {
                     </p>
                     <ul className="pl-2 md:pl-4">
                         <li>
+<<<<<<< HEAD
                             • Une <b>alimentation équilibrée</b> et respectueuse
                             de qui vous êtes.
                         </li>
                         <li>
                             • Un bon <b>fonctionnement intestinal</b> (le système
+=======
+                            ▸ Une <b>alimentation équilibrée</b> et respectueuse
+                            de qui vous êtes.
+                        </li>
+                        <li>
+                            ▸ Un bon <b>fonctionnement intestinal</b> (le système
+>>>>>>> d3c02144a55e69f4682f23a26dd313accae8713a
                             digestif, 1er cerveau pour nous Naturopathes, est en
                             lien avec notre système nerveux).
                         </li>
                         <li>
+<<<<<<< HEAD
                             • Des <b>conseils individualisés</b>, des astuces et
+=======
+                            ▸ Des <b>conseils individualisés</b>, des astuces et
+>>>>>>> d3c02144a55e69f4682f23a26dd313accae8713a
                             des super aliments.
                         </li>
                     </ul>
@@ -75,13 +87,21 @@ const Nutrition = () => {
 
                     <ul>
                         <li>
+<<<<<<< HEAD
                             • <b>Vos constitutions:</b> Il s’agit de l’ensemble de
+=======
+                            ▸ <b>Vos constitutions:</b> Il s’agit de l’ensemble de
+>>>>>>> d3c02144a55e69f4682f23a26dd313accae8713a
                             vos constituants innés, héréditaires, ancestraux et
                             de l'ordre de la génétique. Ils ne changent pas. Par
                             exemple votre groupe sanguin parle de vous.
                         </li>
                         <li>
+<<<<<<< HEAD
                             • <b>Vos tempéraments:</b> C’est l’ensemble des
+=======
+                            ▸ <b>Vos tempéraments:</b> C’est l’ensemble des
+>>>>>>> d3c02144a55e69f4682f23a26dd313accae8713a
                             paramètres acquis. Le fruit de l'adaptation à tous
                             les plans de votre être. Le tempérament évolue dans
                             le temps.
@@ -103,9 +123,7 @@ const Nutrition = () => {
                         de vos besoins.
                     </p>
                 </div>
-                <div className="my-8 mx-auto">
-                    <Plumes />
-                </div>
+                <Plumes />
             </div>
             <SectionInfos adress="sevigne" />
         </>

@@ -5,11 +5,11 @@ import Footer from "./Footer";
 
 const Layout: React.FC = () => {
     return (
-        <>
+        <div className="min-h-screen">
             <Header />
             <Outlet />
             <Footer />
-        </>
+        </div>
     );
 };
 

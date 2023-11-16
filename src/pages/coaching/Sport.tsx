@@ -32,16 +32,21 @@ const Sport = () => {
 
                     <h3 className="text-lg md:text-xl py-2">Mes outils</h3>
                     <ul className="pl-2 md:pl-4">
+<<<<<<< HEAD
                         <li>• Gym Pilates.</li>
                         <li>• Yoga.</li>
                         <li>• Entrainement fonctionnel.</li>
                         <li>• Ecole du dos.</li>
+=======
+                        <li>▸ Gym Pilates.</li>
+                        <li>▸ Yoga.</li>
+                        <li>▸ Entrainement fonctionnel.</li>
+                        <li>▸ Ecole du dos.</li>
+>>>>>>> d3c02144a55e69f4682f23a26dd313accae8713a
                     </ul>
 
                 </div>
-                <div className="my-8 mx-auto">
                     <Plumes />
-                </div>
             </div>
             <SectionInfos adress="sevigne" />
         </>

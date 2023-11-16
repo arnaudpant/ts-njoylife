@@ -11,7 +11,22 @@ export default {
 			noir: '#040f0f',
 			primairevar: '#E8F7FA',
 			secondairevar: '#43E0CB',
-			bleu: '#32cbff'
+			bleu: '#32cbff',
+			tealA: '#fafefd', // Text
+			tealB: '#f3fbf9', // Bg clair
+			tealC: '#e0f8f3', // Bg Fonce
+			tealD: '#ccf3ea',
+			tealE: '#b8eae0',
+			tealF: '#a1ded2',
+			tealG: '#83cdc1',
+			tealH: '#53b9ab',
+			tealI: '#12a594', // Header
+			tealJ: ' #0d9b8a',
+			tealK: ' #008573',
+			tealL: ' #0d3d38',
+			sage1: '#00804004',
+			sage11: '#000a07a0',
+			sage12: '#000805e5',
 		},
 		extend: {
 			boxShadow: {

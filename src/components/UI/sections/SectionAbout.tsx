@@ -1,10 +1,9 @@
 import Plumes from "../../Plumes";
-import Sections from "./Sections";
 
 
 const SectionAbout = () => {
     return (
-        <Sections fond="vert">
+        <section className="flex flex-col items-center md:justify-evenly w-full bg-tealC">
             {/* TITLES */}
             <h2 className="text-2xl md:text-4xl font-semibold m-5">A PROPOS DE MOI</h2>
             <h2 className="text-xl md:text-3xl m-2">Je suis Jo&euml;lle Corda</h2>
@@ -105,9 +104,8 @@ const SectionAbout = () => {
                 </div>
             </div>
             <div className="mt-8">
-                <Plumes />
             </div>
-        </Sections>
+        </section>
     );
 };
 

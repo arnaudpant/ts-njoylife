@@ -18,6 +18,7 @@ const Header = () => {
             <button onClick={handleToggle} className='absolute md:hidden z-50 top-2 left-2'>
                 {toggleBurger ? (<XCircle color='#7d3929' size={48} />) : (<Menu color='#7d3929' size={48} />)}
             </button>
+<<<<<<< HEAD
             <header className="bg-secondaire relative w-full h-14 hidden md:flex md:flex-row items-center md:justify-between px-4 z-40 shadow-md">
 <<<<<<< HEAD
                 <Link to="/"><span className='text-3xl text-blanc font-bold cursor-pointer'>Joëlle CORDA</span></Link>
@@ -25,6 +26,11 @@ const Header = () => {
 
                 <NavLink to="/" className="text-blanc"><p className='text-4xl font-bold text-blanc pl-10'>Jo&euml;lle Corda</p></NavLink>
 >>>>>>> c1d1d2cc70ca69ee9182f898b479cb0689e840a3
+=======
+            <header className="bg-tealI relative w-full h-14 hidden md:flex md:flex-row items-center md:justify-between px-4 z-40 shadow-md">
+
+                <NavLink to="/" className="text-blanc"><p className='text-4xl font-bold text-tealA pl-10'>Jo&euml;lle Corda</p></NavLink>
+>>>>>>> d3c02144a55e69f4682f23a26dd313accae8713a
                 <Navigation />
             </header>
             {toggleBurger && <NavMobile />}

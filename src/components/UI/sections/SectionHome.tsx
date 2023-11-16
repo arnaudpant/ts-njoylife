@@ -2,10 +2,10 @@ import { MapPin } from 'lucide-react';
 
 const SectionHome = () => {
     return (
-        <section className="flex flex-col items-center md:flex-row-reverse md:justify-evenly h-screen w-full bg-primaire z-0">
+        <section className="flex flex-col items-center md:flex-row-reverse md:justify-evenly h-screen w-full bg-gradient-to-br from-tealB via-tealE to-tealC z-0">
 
             {/* BOX INFOS */}
-            <div className="flex flex-col items-center justify-evenly h-3/5 mt-12 md:mt-0 md:w-1/2 md:h-auto">
+            <div className="flex flex-col items-center justify-evenly h-3/5 mt-12 md:mt-0 md:w-1/2 md:h-auto md:pr-4">
                 <div className='md:mb-4'>
                     <h1 className="text-noir text-4xl lg:text-5xl font-bold">NATUROPATHE</h1>
                     <p className='text-center text-lg pt-4'><MapPin className='inline' /> Romans sur Isère <small>(26)</small></p>
@@ -19,7 +19,7 @@ const SectionHome = () => {
 
 
             {/* BOX WOMAN */}
-            <div className="relative flex justify-center h-2/5 md:w-2/5 lg:w-1/2 md:h-auto z-0">
+            <div className="relative flex justify-center pb-4 h-2/5 md:w-2/5 lg:w-1/2 md:h-auto z-0">
                 {/* IMG Woman */}
                 <img src="home/home-woman.png" className="h-full md:max-h-[700px]" />
                 {/* Plume en rotation */}

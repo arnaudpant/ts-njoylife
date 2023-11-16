@@ -26,9 +26,7 @@ const MassageDienChan = () => {
                     <img src="/photos/photo-cours-collectif.jpg" alt="groupe de personnes enlassés" className="h-full bg-contain" />
                 </div>
             </div>
-            <div className="my-8 mx-auto">
-                <Plumes />
-            </div>
+            <Plumes />
             <SectionInfos adress="sevigne" />
         </>
     );
