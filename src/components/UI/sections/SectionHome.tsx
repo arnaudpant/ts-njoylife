@@ -2,7 +2,7 @@ import { MapPin } from 'lucide-react';
 
 const SectionHome = () => {
     return (
-        <section className="flex flex-col items-center md:flex-row-reverse md:justify-evenly h-screen w-full bg-primaire z-0">
+        <section className="flex flex-col items-center md:flex-row-reverse md:justify-evenly h-screen w-full bg-gradient-to-br from-tealB via-tealE to-tealC z-0">
 
             {/* BOX INFOS */}
             <div className="flex flex-col items-center justify-evenly h-3/5 mt-12 md:mt-0 md:w-1/2 md:h-auto md:pr-4">

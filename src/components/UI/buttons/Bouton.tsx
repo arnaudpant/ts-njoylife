@@ -5,7 +5,7 @@ type Props = {
 
 const Bouton = ({ href, label }: Props) => {
     return (
-        <button className="px-4 py-3 bg-action text-blanc text-lg rounded-full w-60">
+        <button className="px-4 py-4 bg-tealI text-tealA text-lg rounded-full w-60">
             <a href={href}>{label}</a>
         </button>
     );
