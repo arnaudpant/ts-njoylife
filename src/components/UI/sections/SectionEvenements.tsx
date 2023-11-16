@@ -1,4 +1,3 @@
-import Plumes from "../../Plumes";
 import Sections from "./Sections";
 
 
@@ -55,7 +54,6 @@ const SectionEvenements = () => {
                     </div>
 
                 </div>
-                <Plumes />
             </Sections>
         </>
     );
