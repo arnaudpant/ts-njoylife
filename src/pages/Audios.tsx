@@ -4,7 +4,7 @@ import Plumes from "../components/Plumes";
 
 const Audios = () => {
     return (
-        <div className="flex flex-col items-center md:justify-evenly w-full bg-primaire min-h-[calc(100vh-112px)]">
+        <div className="flex flex-col items-center md:justify-evenly w-full bg-gradient-to-br from-tealB via-tealE to-tealC min-h-[calc(100vh-112px)]">
 
             <h1 className="text-2xl md:text-4xl font-semibold mx-5 mt-16 md:mt-4">RELAXATIONS GUIDEES</h1>
 

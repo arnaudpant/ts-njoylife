@@ -36,7 +36,7 @@ const SectionEvenements = () => {
                     <div className="w-full flex flex-col md:flex-row justify-center items-center">
                         {/* Image */}
                         <div className="md:w-1/2 md:max-w-[640px]">
-                            <img src="/photos/photo-pilate.jpg" alt="groupe de personnes enlassés" className="h-full bg-contain" />
+                            <img src="/photos/pilate.jpg" alt="groupe de personnes enlassés" className="h-full bg-contain" />
                         </div>
                         <div className="md:w-1/2 md:max-w-[640px] text-center p-8">
                             {/* Text */}
