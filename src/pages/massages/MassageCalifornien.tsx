@@ -4,13 +4,14 @@ import SectionInfos from "../../components/UI/sections/SectionInfos";
 const MassageCalifornien = () => {
     return (
         <>
-            <div className=" flex flex-col md:flex-row justify-center flex-1 items-start mt-14 md:mt-0 px-4" id="top-page">
-
+            <div className="container max-w-screen-md flex flex-col mx-auto mt-14 md:mt-0 px-4" id="top-page">
                 {/* TEXT */}
-                <div className="md:w-1/2 max-w-[600px] text-center p-8">
+
                     <h1 className="text-2xl md:text-4xl font-bold text-center my-4">MASSAGE CALIFORNIEN</h1>
 
-                    <div className="my-4">
+                    <div className="h-52 overflow-hidden bg-page-californien bg-center bg-cover rounded-xl mb-4"></div>
+
+                    <div className="my-4 text-left leading-8">
                         <p>
                             Ce modelage relaxant va vous envelopper d'un voile de douceur ...
                         </p>
@@ -23,12 +24,6 @@ const MassageCalifornien = () => {
                     </div>
                 </div>
 
-                {/* IMAGE */}
-                <div className="md:w-1/2 max-w-[600px] mt-14 md:mt-0 p-8  overflow-hidden">
-                    <img src="/cards/massages/massage-californien.png" alt="groupe de personnes enlassés" className="h-full bg-contain rounded-xl" />
-                </div>
-
-            </div>
 
             <Plumes />
 

@@ -127,12 +127,8 @@ const Cgu = () => {
                     </p>
                 </div>
             </div>
-<<<<<<< HEAD
-                <Plumes />
-=======
 
             <Plumes />
->>>>>>> d3c02144a55e69f4682f23a26dd313accae8713a
         </Sections>
     );
 };

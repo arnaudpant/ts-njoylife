@@ -1,4 +1,3 @@
-import Plumes from "../../Plumes";
 
 
 const SectionAbout = () => {

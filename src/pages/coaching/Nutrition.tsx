@@ -5,8 +5,11 @@ import SectionInfos from "../../components/UI/sections/SectionInfos";
 const Nutrition = () => {
     return (
         <>
-            <div className="container flex flex-col mx-auto mt-14 md:mt-0 px-4" id="top-page">
+            <div className="container max-w-screen-lg flex flex-col mx-auto mt-14 md:mt-0 px-4" id="top-page">
                 <h1 className="text-2xl md:text-4xl font-bold text-center my-4">NUTRITION</h1>
+
+                <div className="h-40 overflow-hidden bg-page-nutrition bg-center bg-cover rounded-xl mb-4"></div>
+
                 <p className="text-center text-lg">
                     "Retrouvez équilibre et enthousiasme par le plaisir de manger ce qui est bon pour vous"
                 </p>
@@ -21,35 +24,19 @@ const Nutrition = () => {
                     </p>
                     <ul className="pl-2 md:pl-4">
                         <li>
-<<<<<<< HEAD
-                            • Une <b>alimentation équilibrée</b> et respectueuse
-                            de qui vous êtes.
-                        </li>
-                        <li>
-                            • Un bon <b>fonctionnement intestinal</b> (le système
-=======
                             ▸ Une <b>alimentation équilibrée</b> et respectueuse
                             de qui vous êtes.
                         </li>
                         <li>
                             ▸ Un bon <b>fonctionnement intestinal</b> (le système
->>>>>>> d3c02144a55e69f4682f23a26dd313accae8713a
                             digestif, 1er cerveau pour nous Naturopathes, est en
                             lien avec notre système nerveux).
                         </li>
                         <li>
-<<<<<<< HEAD
-                            • Des <b>conseils individualisés</b>, des astuces et
-=======
                             ▸ Des <b>conseils individualisés</b>, des astuces et
->>>>>>> d3c02144a55e69f4682f23a26dd313accae8713a
                             des super aliments.
                         </li>
                     </ul>
-                </div>
-
-                <div className="mt-4 mx-auto rounded-2xl overflow-hidden">
-                    <img src="/cards/coaching/card-nutrition.jpg" alt="" />
                 </div>
 
                 <div className="my-4">
@@ -87,21 +74,13 @@ const Nutrition = () => {
 
                     <ul>
                         <li>
-<<<<<<< HEAD
-                            • <b>Vos constitutions:</b> Il s’agit de l’ensemble de
-=======
                             ▸ <b>Vos constitutions:</b> Il s’agit de l’ensemble de
->>>>>>> d3c02144a55e69f4682f23a26dd313accae8713a
                             vos constituants innés, héréditaires, ancestraux et
                             de l'ordre de la génétique. Ils ne changent pas. Par
                             exemple votre groupe sanguin parle de vous.
                         </li>
                         <li>
-<<<<<<< HEAD
-                            • <b>Vos tempéraments:</b> C’est l’ensemble des
-=======
                             ▸ <b>Vos tempéraments:</b> C’est l’ensemble des
->>>>>>> d3c02144a55e69f4682f23a26dd313accae8713a
                             paramètres acquis. Le fruit de l'adaptation à tous
                             les plans de votre être. Le tempérament évolue dans
                             le temps.

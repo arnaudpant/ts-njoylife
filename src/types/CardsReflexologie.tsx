@@ -14,7 +14,14 @@ export const CardsReflexologieList: CardMassageInfo[] = [
         imgAlt: "",
         title: "Chi Nei Tsang",
         time: "60min",
-        link: "/massage-dien-chan" 
+        link: "/massage-chinei" 
+    },
+    {
+        imgSrc: "/cards/massages/massage-chi-nei-tsang.png",
+        imgAlt: "",
+        title: "Chi Nei Tsang",
+        time: "60min",
+        link: "/massage-chinei" 
     },
 ]
 

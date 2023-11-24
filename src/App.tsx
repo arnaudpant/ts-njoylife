@@ -31,7 +31,7 @@ const App: React.FC = () => {
           <Route path="/massage-infini" element={<MassageInfini />} />
           <Route path="/massage-kansu" element={<MassageKansu />} />
           <Route path="/massage-dien-chan" element={<MassageDienChan />} />
-          <Route path="/massage-chi-nei" element={<MassageChiNei />} />
+          <Route path="/massage-chinei" element={<MassageChiNei />} />
           <Route path="/tarifs" element={<Tarifs />} />
           <Route path="/ateliers" element={<Ateliers />} />
           <Route path="/audios" element={<Audios />} />

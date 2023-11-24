@@ -4,11 +4,15 @@ import SectionInfos from "../../components/UI/sections/SectionInfos";
 const Sport = () => {
     return (
         <>
-            <div className="container flex flex-col mx-auto mt-14 md:mt-0 px-4" id="top-page">
-                <h1 className="text-2xl md:text-4xl font-bold text-center my-4 mx-12">SPORT POUR TOUS</h1>
-                <p className="text-center">
+            <div className="container max-w-screen-lg flex flex-col mx-auto mt-14 md:mt-0 px-4" id="top-page">
+                <h1 className="text-2xl md:text-4xl font-bold text-center my-4">SPORT POUR TOUS</h1>
+
+                <div className="h-40 overflow-hidden bg-page-sport bg-center bg-cover rounded-xl mb-4"></div>
+
+                <p className="text-center text-lg">
                     "Vous souhaitez tonifier votre corps ou tout simplement retrouver un bien-être corporel dans les sensations"
                 </p>
+
 
                 <div className="my-4">
                     <h2 className="text-xl md:text-2xl font-semibold my-4">
@@ -24,25 +28,14 @@ const Sport = () => {
                     </p>
                 </div>
 
-                <div className="mt-4 mx-auto rounded-2xl overflow-hidden">
-                    <img src="/cards/coaching/card-sport.jpg" alt="" />
-                </div>
-
                 <div className="my-4">
 
-                    <h3 className="text-lg md:text-xl py-2">Mes outils</h3>
+                    <h3 className="text-lg md:text-xl pt-6 pb-2">Mes outils</h3>
                     <ul className="pl-2 md:pl-4">
-<<<<<<< HEAD
-                        <li>• Gym Pilates.</li>
-                        <li>• Yoga.</li>
-                        <li>• Entrainement fonctionnel.</li>
-                        <li>• Ecole du dos.</li>
-=======
                         <li>▸ Gym Pilates.</li>
                         <li>▸ Yoga.</li>
                         <li>▸ Entrainement fonctionnel.</li>
                         <li>▸ Ecole du dos.</li>
->>>>>>> d3c02144a55e69f4682f23a26dd313accae8713a
                     </ul>
 
                 </div>

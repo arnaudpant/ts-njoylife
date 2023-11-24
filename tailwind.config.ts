@@ -40,6 +40,14 @@ export default {
 					'100%': { transform: 'rotate(0deg)' },
 				}
 			},
+			backgroundImage: {
+				'page-nutrition': "url('/photos/page-nutrition.jpg')",
+				'page-stress': "url('/photos/page-stress.jpg')",
+				'page-sport': "url('/photos/page-sport.jpg')",
+				'page-californien': "url('/photos/massage/page-californien.jpg')",
+				'page-infini': "url('/photos/massage/page-infini.jpg')",
+				'page-chinei': "url('/photos/massage/page-chinei.jpg')",
+			  }
 		},
 	},
 	plugins: [],

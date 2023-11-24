@@ -30,8 +30,6 @@ const SectionEvenements = () => {
                         </div>
                     </div>
 
-q
-
                     {/* BOX 2 */}
                     <div className="w-full flex flex-col md:flex-row justify-center items-center">
                         {/* Image */}
