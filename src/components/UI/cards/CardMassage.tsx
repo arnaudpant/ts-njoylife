@@ -1,6 +1,12 @@
-import { CardMassageInfo } from "../../../types/CardsMassageList";
+type CardMassageReflexologieInfo = {
+    imgSrc: string,
+    imgAlt: string,
+    title: string,
+    time: string,
+    link: string
+}
 
-const CardMassage = (card: CardMassageInfo) => {
+const CardMassage = (card: CardMassageReflexologieInfo) => {
     const { imgSrc, imgAlt, title, time, link } = card
     return (
         <div>

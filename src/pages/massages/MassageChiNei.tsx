@@ -3,8 +3,8 @@ import SectionInfos from "../../components/UI/sections/SectionInfos";
 
 const MassageChiNei = () => {
   return (
-    <>
-      <div className="container max-w-screen-md flex flex-col mx-auto mt-14 md:mt-0 px-4" id="top-page">
+    <div className="min-h-[calc(100vh-112px)] flex flex-col justify-between">
+      <div className="container max-w-screen-md  mx-auto mt-14 md:mt-0 px-4" id="top-page">
 
           <h1 className="text-2xl md:text-4xl font-bold text-center my-4">MASSAGE ENERGETIQUE</h1>
           <h2 className="text-xl md:text-2xl font-semibold text-center my-4">Massage Chi Nei Tsang</h2>
@@ -29,7 +29,7 @@ const MassageChiNei = () => {
 
       <Plumes />
       <SectionInfos adress="sevigne" />
-    </>
+    </div>
   );
 };
 

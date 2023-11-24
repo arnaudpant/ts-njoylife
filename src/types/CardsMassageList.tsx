@@ -1,4 +1,4 @@
-export type CardMassageInfo = {
+type CardMassageInfo = {
     imgSrc: string,
     imgAlt: string,
     title: string,

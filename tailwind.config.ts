@@ -46,8 +46,10 @@ export default {
 				'page-sport': "url('/photos/page-sport.jpg')",
 				'page-californien': "url('/photos/massage/page-californien.jpg')",
 				'page-infini': "url('/photos/massage/page-infini.jpg')",
+				'page-kansu': "url('/photos/massage/page-kansu.jpg')",
+				'page-dienchan': "url('/photos/massage/page-dienchan.jpg')",
 				'page-chinei': "url('/photos/massage/page-chinei.jpg')",
-			  }
+			}
 		},
 	},
 	plugins: [],

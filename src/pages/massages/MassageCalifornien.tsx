@@ -3,13 +3,13 @@ import SectionInfos from "../../components/UI/sections/SectionInfos";
 
 const MassageCalifornien = () => {
     return (
-        <>
-            <div className="container max-w-screen-md flex flex-col mx-auto mt-14 md:mt-0 px-4" id="top-page">
+        <div className="min-h-[calc(100vh-112px)] flex flex-col justify-between">
+            <div className="container max-w-screen-md  mx-auto mt-14 md:mt-0 px-4" id="top-page">
                 {/* TEXT */}
 
                     <h1 className="text-2xl md:text-4xl font-bold text-center my-4">MASSAGE CALIFORNIEN</h1>
 
-                    <div className="h-52 overflow-hidden bg-page-californien bg-center bg-cover rounded-xl mb-4"></div>
+                    <div className="h-52 overflow-hidden bg-page-californien bg-center bg-cover rounded-xl mb-8"></div>
 
                     <div className="my-4 text-left leading-8">
                         <p>
@@ -29,7 +29,7 @@ const MassageCalifornien = () => {
 
 
             <SectionInfos adress="sevigne" />
-        </>
+        </div>
     );
 };
 
