@@ -13,14 +13,14 @@ export const CardsReflexologieList: CardReflexologieInfo[] = [
         imgAlt: "",
         title: "Dien' Chan",
         time: "60min",
-        link: "/massage-dienchan/#top-page" 
+        link: "/massage-dienchan" 
     },
     {
         imgSrc: "/cards/massages/massage-chi-nei-tsang.png",
         imgAlt: "",
         title: "Chi Nei Tsang",
         time: "60min",
-        link: "/massage-chinei/#top-page" 
+        link: "/massage-chinei" 
     },
 ]
 

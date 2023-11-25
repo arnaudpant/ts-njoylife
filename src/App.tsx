@@ -27,11 +27,11 @@ const App: React.FC = () => {
           <Route path="/stress" element={<Stress />} />
           <Route path="/sport" element={<Sport />} />
           <Route path="/cgu" element={<Cgu />} />
-          <Route path="/massage-californien/#top-page" element={<MassageCalifornien />} />
-          <Route path="/massage-infini/#top-page" element={<MassageInfini />} />
-          <Route path="/massage-kansu/#top-page" element={<MassageKansu />} />
-          <Route path="/massage-dienchan/#top-page" element={<MassageDienChan />} />
-          <Route path="/massage-chinei/#top-page" element={<MassageChiNei />} />
+          <Route path="/massage-californien" element={<MassageCalifornien />} />
+          <Route path="/massage-infini" element={<MassageInfini />} />
+          <Route path="/massage-kansu" element={<MassageKansu />} />
+          <Route path="/massage-dienchan" element={<MassageDienChan />} />
+          <Route path="/massage-chinei" element={<MassageChiNei />} />
           <Route path="/tarifs" element={<Tarifs />} />
           <Route path="/ateliers" element={<Ateliers />} />
           <Route path="/audios" element={<Audios />} />

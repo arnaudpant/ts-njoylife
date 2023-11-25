@@ -12,21 +12,21 @@ export const CardsMassageList: CardMassageInfo[] = [
         imgAlt: "",
         title: "Californien",
         time: "60min",
-        link: "/massage-californien/#top-page" 
+        link: "/massage-californien" 
     },
     {
         imgSrc: "/cards/massages/massage-infini.png",
         imgAlt: "",
         title: "Infini",
         time: "60min",
-        link: "/massage-infini/#top-page" 
+        link: "/massage-infini" 
     },
     {
         imgSrc: "/cards/massages/massage-kansu.png",
         imgAlt: "",
         title: "Kansu",
         time: "30min",
-        link: "/massage-kansu/#top-page" 
+        link: "/massage-kansu" 
     },
 ]
 
