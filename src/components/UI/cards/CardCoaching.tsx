@@ -26,7 +26,7 @@ const CardCoaching = (card: CardCoachingInfo) => {
             </div>
             {/* CALL TO ACTION */}
             <div className="mb-6 mx-auto">
-                <Link to={`${link}#top-page`} className="block px-4 py-2 bg-tealI text-tealA rounded-full">Cliquez pour en savoir plus</Link>
+                <Link to={`${link}`} className="block px-4 py-2 bg-tealI text-tealA rounded-full">Cliquez pour en savoir plus</Link>
             </div>
         </div>
     );
