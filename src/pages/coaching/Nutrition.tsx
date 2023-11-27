@@ -1,8 +1,16 @@
+import { useEffect } from "react";
 import Plumes from "../../components/Plumes";
 import SectionInfos from "../../components/UI/sections/SectionInfos";
 
 
 const Nutrition = () => {
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+    }, [])
+    
     return (
         <>
             <div className="container max-w-screen-lg flex flex-col mx-auto mt-14 md:mt-0 px-4" id="top-page">

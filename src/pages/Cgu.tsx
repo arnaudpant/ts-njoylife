@@ -1,8 +1,15 @@
+import { useEffect } from "react";
 import Plumes from "../components/Plumes";
 import Sections from "../components/UI/sections/Sections";
 
 
 const Cgu = () => {
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+    }, [])
     return (
         <Sections>
             <div className="container mx-auto px-4">

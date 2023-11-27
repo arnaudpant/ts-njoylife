@@ -1,7 +1,14 @@
+import { useEffect } from "react";
 import Plumes from "../../components/Plumes";
 import SectionInfos from "../../components/UI/sections/SectionInfos";
 
 const MassageKansu = () => {
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+    }, [])
     return (
         <div className="min-h-[calc(100vh-112px)] flex flex-col justify-between">
             <div className="container max-w-screen-md  mx-auto mt-14 md:mt-0 px-4" id="top-page">
