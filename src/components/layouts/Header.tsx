@@ -1,12 +1,12 @@
 import { Menu, XCircle } from 'lucide-react';
-import { useState } from 'react';
 import Navigation from './Navigation';
 import NavMobile from './NavMobile';
 import { NavLink } from 'react-router-dom';
+import { useToggleMenuBurger } from '../../context/ToggleMenuBurger';
 
 
 const Header = () => {
-    const [openBurger, setOpenBurger] = useState(false)
+    const {openBurger, setOpenBurger} = useToggleMenuBurger()
     
     const handleToggle = () => {
         if(openBurger) {
@@ -14,7 +14,6 @@ const Header = () => {
         } else {
             setOpenBurger(true)
         }
-       
     }
     return (
         <>

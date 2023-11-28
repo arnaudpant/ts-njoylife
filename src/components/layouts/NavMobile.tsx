@@ -1,11 +1,20 @@
-import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import NavbarLinks from "../../types/NavbarLinks";
 import { ReactNode } from "react";
 import Plumes from "../Plumes";
+import { useToggleMenuBurger } from "../../context/ToggleMenuBurger";
 
 
 const NavMobile = () => {
 
+    const {setOpenBurger} = useToggleMenuBurger()
+    const navigate = useNavigate()
+
+    function handleToggle(link:string){
+        console.log(link)
+        setOpenBurger(false)
+        navigate(`${link}`)
+    }
 
     return (
 
@@ -16,11 +25,12 @@ const NavMobile = () => {
             <div className="flex flex-col mb-8 items-center">
                 {
                     NavbarLinks.map((link, index: number): ReactNode => (
-                        <NavLink to={link.link} className="text-action text-2xl pb-4" key={index}>{link.title}</NavLink>
-
+                        <div key={index} onClick={()=>handleToggle(link.link)}>
+                            {link.title}
+                        </div>
                     ))
                 }
-            <Plumes  />
+                <Plumes />
             </div>
         </nav>
     );
