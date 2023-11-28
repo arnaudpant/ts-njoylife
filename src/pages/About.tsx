@@ -12,7 +12,7 @@ const About = () => {
             <SectionWhyMe />
             <SectionCabinet />
             <SectionCallToAction />
-            <SectionInfos adress="sevigne" />
+            <SectionInfos />
         </>
     );
 };

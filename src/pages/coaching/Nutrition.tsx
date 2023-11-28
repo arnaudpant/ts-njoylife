@@ -7,7 +7,6 @@ const Nutrition = () => {
     useEffect(() => {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth'
         })
     }, [])
     
@@ -50,7 +49,7 @@ const Nutrition = () => {
                 <div className="my-4">
                     <h2 className="text-xl md:text-2xl font-semibold my-4">Déroulement d’un coaching</h2>
 
-                    <h3 className="text-lg md:text-xl py-2">Nous commençons par une <b>Anamnèse</b>:</h3>
+                    <h3 className="text-lg md:text-xl py-2">Nous commençons par une <b>Anamnèse</b> :</h3>
                     <p>
                         Ensemble nous créons une alliance thérapeute/consultant.
                     </p>
@@ -70,7 +69,7 @@ const Nutrition = () => {
                         de vie et la manière dont vous fonctionnez.
                     </p>
 
-                    <h3 className="text-lg md:text-xl pt-6 pb-2">Suivie d’un <b>bilan de vitalité naturopathique</b>:</h3>
+                    <h3 className="text-lg md:text-xl pt-6 pb-2">Suivie d’un <b>bilan de vitalité naturopathique</b> :</h3>
 
                     <p>Vous allez vous rencontrer !</p>
                     <p>
@@ -95,7 +94,7 @@ const Nutrition = () => {
                         </li>
                     </ul>
 
-                    <h3 className="text-lg md:text-xl pt-6 pb-2">La <b>placarologie</b>:</h3>
+                    <h3 className="text-lg md:text-xl pt-6 pb-2">La <b>placarologie</b> :</h3>
 
                     <p>
                         Quand ce sera le moment pour vous, nous prendrons rdv à

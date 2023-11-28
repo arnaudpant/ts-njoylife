@@ -6,7 +6,6 @@ const Stress = () => {
     useEffect(() => {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth'
         })
     }, [])
     return (
@@ -25,7 +24,7 @@ const Stress = () => {
                         Les effets d’un Coaching
                     </h2>
                     <p className="pb-2">
-                        Vous allez:
+                        Vous allez :
                     </p>
                     <ul className="pl-2 md:pl-4 pb-4">
                         <li>
@@ -64,14 +63,14 @@ const Stress = () => {
 
                     <h2 className="text-xl md:text-2xl font-semibold my-4">La Sophrologie est efficace pour la préparation mentale</h2>
                     <ul className="pl-2 md:pl-4">
-                        <li>▸ Aux examens, concours, entretiens d’embauche.</li>
-                        <li>▸ Aux compétitions sportives.</li>
-                        <li>▸ Aux interventions chirurgicales.</li>
-                        <li>▸ A la naissance.</li>
+                        <li>▸ Aux examens, concours, entretiens d’embauche</li>
+                        <li>▸ Aux compétitions sportives</li>
+                        <li>▸ Aux interventions chirurgicales</li>
+                        <li>▸ A la naissance</li>
                     </ul>
 
                 </div>
-                    <Plumes />
+                <Plumes />
             </div>
             <SectionInfos />
         </>

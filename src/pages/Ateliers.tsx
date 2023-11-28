@@ -30,7 +30,7 @@ const Ateliers = () => {
                     d'une dizaine de pays.</p>
             </Sections>
             <Plumes />
-            <SectionInfos adress="" />
+            <SectionInfos />
         </>
     );
 };

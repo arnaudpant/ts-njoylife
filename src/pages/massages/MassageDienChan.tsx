@@ -6,7 +6,6 @@ const MassageDienChan = () => {
     useEffect(() => {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth'
         })
     }, [])
     return (
@@ -31,7 +30,7 @@ const MassageDienChan = () => {
             </div>
 
             <Plumes />
-            <SectionInfos adress="sevigne" />
+            <SectionInfos  />
         </div>
     );
 };

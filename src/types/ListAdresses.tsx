@@ -34,7 +34,7 @@ export const ListAdresses: Adresses[] = [
     },
     {
         id: "sens",
-        jours: "",
+        jours: "Du lundi au samedi",
         heures: "",
         lieu: "Septième Sens",
         adresse: "45 allée du Vivarais",

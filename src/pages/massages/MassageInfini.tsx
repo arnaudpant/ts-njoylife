@@ -6,7 +6,6 @@ const MassageInfini = () => {
     useEffect(() => {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth'
         })
     }, [])
     return (
@@ -31,7 +30,7 @@ const MassageInfini = () => {
                 </div>
 
             <Plumes />
-            <SectionInfos adress="sevigne" />
+            <SectionInfos />
         </div>
     );
 };

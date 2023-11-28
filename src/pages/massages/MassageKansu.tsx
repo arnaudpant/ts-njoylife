@@ -6,7 +6,6 @@ const MassageKansu = () => {
     useEffect(() => {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth'
         })
     }, [])
     return (
@@ -32,7 +31,7 @@ const MassageKansu = () => {
                 </div>
 
             <Plumes />
-            <SectionInfos adress="sevigne" />
+            <SectionInfos />
         </div>
     );
 };

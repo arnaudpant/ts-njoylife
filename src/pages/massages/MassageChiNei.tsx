@@ -6,7 +6,6 @@ const MassageChiNei = () => {
   useEffect(() => {
     window.scrollTo({
         top: 0,
-        behavior: 'smooth'
     })
 }, [])
   return (
@@ -35,7 +34,7 @@ const MassageChiNei = () => {
         </div>
 
       <Plumes />
-      <SectionInfos adress="sevigne" />
+      <SectionInfos />
     </div>
   );
 };
