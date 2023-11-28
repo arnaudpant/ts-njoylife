@@ -32,4 +32,12 @@ export const ListAdresses: Adresses[] = [
         adresse: "",
         ville: ""
     },
+    {
+        id: "sens",
+        jours: "",
+        heures: "",
+        lieu: "Septième Sens",
+        adresse: "45 allée du Vivarais",
+        ville: "Bourg De Péage"
+    },
 ]

@@ -8,7 +8,7 @@ const Adress = (Adress: Adresses) => {
                 Adress.heures && (<p>{Adress.heures}</p>)
             }
             {
-                Adress.lieu && (<p>{Adress.lieu}</p>)
+                Adress.lieu && (<p className="text-xl font-semibold">{Adress.lieu}</p>)
             }
             <p className="pt-2">{Adress.adresse}</p>
             <p>{Adress.ville}</p>

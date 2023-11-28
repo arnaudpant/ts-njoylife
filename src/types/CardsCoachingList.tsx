@@ -13,15 +13,15 @@ export const CardsCoachingLlist: CardCoachingInfo[] = [
         imgAlt: 'photo de fruits et légumes',
         title: 'NUTRITION',
         intro: 'Vous voulez:',
-        liArr: ['▸ Perdre du poids ou en reprendre.', '▸ Rééquilibrer votre flore intestinale.', '▸ Retrouver la santé.'],
+        liArr: ['▸ Perdre du poids ou en reprendre', '▸ Rééquilibrer votre flore intestinale', '▸ Retrouver la santé'],
         link: "/nutrition"
     },
     {
         imgSrc: 'cards/coaching/card-stress.jpg',
         imgAlt: 'photo d une femme seule sur la plage',
         title: 'GESTION des STRESS et des EMOTIONS',
-        intro: 'Vous souffrez:',
-        liArr: ['▸ Anxiétés, angoisses, insomnies.', '▸ Migraines, acouphènes.', '▸ Ulcère, contractures, spasmophilie...'],
+        intro: 'Vous souffrez de:',
+        liArr: ['▸ Anxiétés, angoisses, insomnies', '▸ Migraines, acouphènes', '▸ Ulcère, contractures, spasmophilie...'],
         link: "/stress"
     },
     {
@@ -29,7 +29,7 @@ export const CardsCoachingLlist: CardCoachingInfo[] = [
         imgAlt: 'personnes faisant du yoga dehors',
         title: 'SPORT pour TOUS',
         intro: 'Vous sortez:',
-        liArr: ['▸ D\’une longue période sans activité physique.', '▸ D\'une opération.', '▸ D\'un burn-out, maladie, autre ...'],
+        liArr: ['▸ D\’une longue période sans activité physique', '▸ D\'une opération', '▸ D\'un burn-out, maladie, autre ...'],
         link: "/sport"
     },
 ]

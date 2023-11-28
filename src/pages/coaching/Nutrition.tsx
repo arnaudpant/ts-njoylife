@@ -70,7 +70,7 @@ const Nutrition = () => {
                         de vie et la manière dont vous fonctionnez.
                     </p>
 
-                    <h3 className="text-lg md:text-xl pt-6 pb-2">Suivie d’un bilan de vitalité naturopathique</h3>
+                    <h3 className="text-lg md:text-xl pt-6 pb-2">Suivie d’un <b>bilan de vitalité naturopathique</b>:</h3>
 
                     <p>Vous allez vous rencontrer !</p>
                     <p>
@@ -95,7 +95,7 @@ const Nutrition = () => {
                         </li>
                     </ul>
 
-                    <h3 className="text-lg md:text-xl pt-6 pb-2">La placarologie:</h3>
+                    <h3 className="text-lg md:text-xl pt-6 pb-2">La <b>placarologie</b>:</h3>
 
                     <p>
                         Quand ce sera le moment pour vous, nous prendrons rdv à
@@ -112,7 +112,7 @@ const Nutrition = () => {
                 </div>
                 <Plumes />
             </div>
-            <SectionInfos adress="sevigne" />
+            <SectionInfos />
         </>
     );
 };

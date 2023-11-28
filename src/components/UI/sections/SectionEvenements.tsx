@@ -40,12 +40,8 @@ const SectionEvenements = () => {
                             {/* Text */}
                             <h2 className="text-2xl md:text-4xl font-semibold">PILATES</h2>
                             <div className="flex flex-col items-center gap-4 mt-4 text-lg">
-                                <p className="pb-4">Les mardis à 18H15</p>
                                 <p className="pb-4">
-                                    La gym Pilâtes renforce tous les muscles profonds, elle est axée sur la conscience du corps et la colonne vertébrale.
-                                </p>
-                                <p className="pb-4">
-                                    Petits groupes de 10 personnes maximum.
+                                    La gym Pilâtes renforce tous les muscles profonds, elle est axée sur la conscience du corps et la colonne vertébrale via la respiration.
                                 </p>
                             </div>
                         </div>
