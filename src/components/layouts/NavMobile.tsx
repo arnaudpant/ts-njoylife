@@ -25,7 +25,7 @@ const NavMobile = () => {
             <div className="flex flex-col mb-8 items-center">
                 {
                     NavbarLinks.map((link, index: number): ReactNode => (
-                        <div key={index} onClick={()=>handleToggle(link.link)}>
+                        <div key={index} onClick={()=>handleToggle(link.link)} className="text-tealL text-xl py-2 cursor-pointer">
                             {link.title}
                         </div>
                     ))
