@@ -13,7 +13,7 @@ const SectionEvenements = () => {
                     <div className="w-full flex flex-col-reverse md:flex-row justify-center items-center">
                         {/*  Text */}
                         <div className="md:w-1/2 md:max-w-[640px] text-center p-8">
-                            <h2 className="text-2xl md:text-4xl font-semibold">COURS COLLECTIFS</h2>
+                            <h2 className="font-title text-2xl md:text-4xl font-semibold">COURS COLLECTIFS</h2>
                             <div className="flex flex-col items-center gap-4 mt-4 text-lg">
                                 <p className="pt-8">
                                     Venez prendre un temps pour vous.
@@ -38,7 +38,7 @@ const SectionEvenements = () => {
                         </div>
                         <div className="md:w-1/2 md:max-w-[640px] text-center p-8">
                             {/* Text */}
-                            <h2 className="text-2xl md:text-4xl font-semibold">PILATES</h2>
+                            <h2 className="font-title text-2xl md:text-4xl font-semibold">PILATES</h2>
                             <div className="flex flex-col items-center gap-4 mt-4 text-lg">
                                 <p className="pb-4">
                                     La gym Pilâtes renforce tous les muscles profonds, elle est axée sur la conscience du corps et la colonne vertébrale via la respiration.

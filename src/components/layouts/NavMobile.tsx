@@ -3,7 +3,10 @@ import NavbarLinks from "../../types/NavbarLinks";
 import { ReactNode } from "react";
 import Plumes from "../Plumes";
 
+
 const NavMobile = () => {
+
+
     return (
 
         <nav className="absolute left-0 top-0 flex flex-col bg-primairevar w-full h-auto text-center p-2 z-30 shadow-xl">
@@ -14,6 +17,7 @@ const NavMobile = () => {
                 {
                     NavbarLinks.map((link, index: number): ReactNode => (
                         <NavLink to={link.link} className="text-action text-2xl pb-4" key={index}>{link.title}</NavLink>
+
                     ))
                 }
             <Plumes  />

@@ -11,7 +11,7 @@ const MassageDienChan = () => {
     return (
         <div className="min-h-[calc(100vh-112px)] flex flex-col justify-between">
             <div className="container max-w-screen-md  mx-auto mt-14 md:mt-0 px-4" id="top-page">
-                <h1 className="text-2xl md:text-4xl font-bold text-center my-4">MASSAGE DIEN-CHAN</h1>
+                <h1 className="font-title text-2xl md:text-4xl font-bold text-center my-4">MASSAGE DIEN-CHAN</h1>
 
                 <h2 className="text-xl md:text-2xl font-semibold text-center my-4">Réflexologie faciale<br />massage liftant - relaxant</h2>
                 <div className="h-52 overflow-hidden bg-page-dienchan bg-top bg-cover rounded-xl mb-8"></div>

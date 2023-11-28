@@ -3,7 +3,7 @@ import Sections from "./Sections";
 const SectionWhyMe = () => {
     return (
         <Sections fond="vert">
-            <h2 className="text-2xl md:text-4xl font-semibold m-5">Pourquoi me choisir ?</h2>
+            <h2 className="font-title text-2xl md:text-4xl font-semibold m-5">Pourquoi me choisir ?</h2>
             <h2 className="text-xl md:text-3xl m-2">Naturopathe et aussi ...</h2>
             <div className="container mx-auto px-4 my-4">
                 <p className="pb-4">

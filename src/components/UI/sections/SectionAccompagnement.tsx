@@ -10,7 +10,7 @@ const SectionAccompagnement = () => {
                 </div>
 
                 <div className="w-full md:w-1/2 flex flex-col justify-center text-center text-lg md:text-xl">
-                    <h2 className="text-2xl md:text-4xl font-semibold p-8">ACCOMPAGNEMENT INDIVIDUEL</h2>
+                    <h2 className="font-title  text-2xl md:text-4xl font-semibold p-8">ACCOMPAGNEMENT INDIVIDUEL</h2>
                     <p className="px-4">Coaching personnalisé en pack de 4 séances qui comprend:</p>
                     <p className="pb-4 px-4">2 ou 3 piliers selon vos besoins:</p>
                     <div className="mx-auto px-4">

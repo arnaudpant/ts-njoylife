@@ -3,6 +3,10 @@ import type { Config } from 'tailwindcss'
 export default {
 	content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
 	theme: {
+		
+		fontFamily: {
+			'title': ['Bitter']
+		},
 		colors: {
 			primaire: '#d2f7fa',
 			secondaire: '#36b3a2',

@@ -4,7 +4,7 @@ const SectionAbout = () => {
     return (
         <section className="flex flex-col items-center md:justify-evenly w-full bg-tealB">
             {/* TITLES */}
-            <h2 className="text-2xl md:text-4xl font-semibold m-5">A PROPOS DE MOI</h2>
+            <h2 className="font-title text-2xl md:text-4xl font-semibold m-5">A PROPOS DE MOI</h2>
             <h2 className="text-xl md:text-3xl m-2">Je suis Jo&euml;lle Corda</h2>
             <h3 className="md:text-xl">Naturopathe</h3>
             {/* BLOC 1 */}

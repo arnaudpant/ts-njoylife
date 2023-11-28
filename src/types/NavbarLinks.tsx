@@ -5,6 +5,10 @@ type LiensNavbar = {
 
 const NavbarLinks: LiensNavbar[] = [
     {
+        title: "Accueil",
+        link: "/"
+    },
+    {
         title: "Tarifs & Horaires",
         link: "/tarifs"
     },

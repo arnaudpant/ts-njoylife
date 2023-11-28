@@ -5,7 +5,7 @@ const SectionHome = () => {
         <section className="flex flex-col items-center md:flex-row-reverse md:justify-evenly h-screen md:h-[calc(100vh-56px)] w-full bg-gradient-to-br from-tealB via-tealE to-tealC z-0">
 
             {/* BOX INFOS */}
-            <div className="flex flex-col items-center justify-evenly h-3/5 mt-12 md:mt-0 md:w-1/2 md:h-auto md:pr-4">
+            <div className="flex flex-col items-center justify-evenly h-3/5 mt-12 md:mt-0 md:w-1/2 md:h-auto md:pr-8">
                 <div className='md:mb-4'>
                     <h1 className="text-noir text-4xl lg:text-5xl font-bold">NATUROPATHE</h1>
                     <p className='text-center text-lg pt-4'><MapPin className='inline' /> Romans sur Isère <small>(26)</small></p>
