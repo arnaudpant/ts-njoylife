@@ -38,6 +38,6 @@ export const ListAdresses: Adresses[] = [
         heures: "",
         lieu: "Septième Sens",
         adresse: "45 allée du Vivarais",
-        ville: "Bourg De Péage"
+        ville: "26300 Bourg De Péage"
     },
 ]
