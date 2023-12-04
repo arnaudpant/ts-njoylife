@@ -27,7 +27,7 @@ export const CardsCoachingLlist: CardCoachingInfo[] = [
     {
         imgSrc: 'cards/coaching/card-sport.jpg',
         imgAlt: 'personnes faisant du yoga dehors',
-        title: 'SPORT pour TOUS',
+        title: 'SPORT SANTÉ',
         intro: 'Vous sortez:',
         liArr: ['▸ D\’une longue période sans activité physique', '▸ D\'une opération', '▸ D\'un burn-out, maladie, autre ...'],
         link: "/sport"

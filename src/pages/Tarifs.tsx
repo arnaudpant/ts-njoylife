@@ -6,7 +6,7 @@ const Tarifs = () => {
 
             <div className="container px-2 mx-auto mt-10 max-w-3xl">
                 <div className="grid grid-cols-5 gap-x-2 gap-y-1 rounded-xl">
-                    <div className="bg-tealE col-span-5 rounded-xl text-center text-xl py-1">COACHING:</div>
+                    <div className="bg-tealE col-span-5 rounded-xl text-center text-xl py-1">COACHING</div>
 
                     <div className="bg-tealC col-span-4 pl-2">Séance 1H</div>
                     <div className="bg-tealC text-center">60€</div>
