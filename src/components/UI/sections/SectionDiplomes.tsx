@@ -1,9 +1,8 @@
 
-
 const SectionDiplomes = () => {
     return (
         <section className="flex flex-col justify-center items-center mt-4 bg-tealA">
-            <h2 className="text-xl md:text-3xl m-2">Mes diplômes</h2>
+            <h2 className="font-title text-2xl md:text-4xl font-semibold m-5 pt-4 md:pt-8">Mes diplômes</h2>
             <div className="w-10 h-10">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     viewBox="0 0 284 270.7" enable-background="new 0 0 284 270.7">

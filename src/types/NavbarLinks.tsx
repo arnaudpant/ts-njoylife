@@ -9,7 +9,7 @@ const NavbarLinks: LiensNavbar[] = [
         link: "/"
     },
     {
-        title: "Tarifs & Horaires",
+        title: "Tarifs",
         link: "/tarifs"
     },
     {
