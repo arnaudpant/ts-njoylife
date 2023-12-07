@@ -22,7 +22,6 @@ const SectionEvenements = () => {
                                     Cours collectifs en petit groupe de 6 personnes.
                                 </p>
                             </div>
-
                         </div>
                         {/* Image */}
                         <div className="md:w-1/2 md:max-w-[640px]">

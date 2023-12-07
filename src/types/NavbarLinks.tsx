@@ -20,6 +20,10 @@ const NavbarLinks: LiensNavbar[] = [
         title: "Relaxations guidées",
         link: "/audios"
     },
+    {
+        title: "Ateliers",
+        link: "/ateliers"
+    },
 ]
 
 export default NavbarLinks
