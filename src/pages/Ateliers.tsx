@@ -26,7 +26,7 @@ const Ateliers = () => {
 
                         {/* Image */}
                         <div className="md:w-1/2 md:max-w-[400px] px-4 md:my-4">
-                            <img src="/photos/photo-cours-collectif.jpg" alt="groupe de personnes enlassés" className="h-full bg-contain" />
+                            <img src="/photos/relax-sonore.jpeg" alt="groupe de personnes enlassés" className="h-full bg-contain" />
                         </div>
 
                     </div>
@@ -37,7 +37,7 @@ const Ateliers = () => {
                         
                         {/* Image */}
                         <div className="md:w-1/2 md:max-w-[400px] px-4 my-4">
-                            <img src="/photos/pilate.jpg" alt="groupe de personnes enlassés" className="h-full bg-contain" />
+                            <img src="/photos/cercle-pardon.jpeg" alt="groupe de personnes enlassés" className="h-full bg-contain" />
                         </div>
 
 
