@@ -37,7 +37,7 @@ const Ateliers = () => {
                         
                         {/* Image */}
                         <div className="md:w-1/2 md:max-w-[400px] px-4 my-4">
-                            <img src="/photos/cercle-pardon.jpeg" alt="groupe de personnes enlassés" className="h-full bg-contain" />
+                            <img src="/photos/cercle-pardon.jpeg" alt="groupe de personnes enlassés" className="h-full bg-contain shadow-lg" />
                         </div>
 
 

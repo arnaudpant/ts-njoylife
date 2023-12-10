@@ -18,8 +18,8 @@ const Audios = () => {
 
                 <div>
                     <div className="px-4 pt-4 pb-6 my-6 bg-tealC rounded-xl">
-                        <h3 className="pb-2">Les points d'appui du corps</h3>
-                        <audio controls preload="auto" src="/audio/Relax1 points-appui.m4a"
+                        <h3 className="pb-2">Le cercle d'amour</h3>
+                        <audio controls preload="auto" src="/audio/Relax7.mp4"
                             controlsList="nodownload">
                             Votre navigateur ne supporte pas la balise audio
                         </audio>
