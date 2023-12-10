@@ -9,7 +9,7 @@ const SectionEvenements = () => {
 
                 <div className="flex flex-col items-center">
 
-                    {/* BOX 1 */}
+                    {/* BOX 1 COURS COLLECTIF */}
                     <div className="w-full flex flex-col-reverse md:flex-row justify-center items-center">
                         {/*  Text */}
                         <div className="md:w-1/2 md:max-w-[640px] text-center p-8">
@@ -29,11 +29,11 @@ const SectionEvenements = () => {
                         </div>
                     </div>
 
-                    {/* BOX 2 */}
+                    {/* BOX 2 PILATE */}
                     <div className="w-full flex flex-col md:flex-row justify-center items-center">
                         {/* Image */}
                         <div className="md:w-1/2 md:max-w-[640px]">
-                            <img src="/photos/pilate.jpeg" alt="groupe de personnes enlassés" className="h-full bg-contain" />
+                            <img src="/photos/pilate2.jpg" alt="groupe de personnes enlassés by @jaspindersingh on unsplash" className="h-full bg-contain" />
                         </div>
                         <div className="md:w-1/2 md:max-w-[640px] text-center p-8">
                             {/* Text */}
@@ -53,3 +53,4 @@ const SectionEvenements = () => {
 };
 
 export default SectionEvenements;
+

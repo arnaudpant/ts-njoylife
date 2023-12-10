@@ -1,3 +1,4 @@
+import Plumes from "../components/Plumes";
 import SectionInfos from "../components/UI/sections/SectionInfos";
 import Sections from "../components/UI/sections/Sections";
 
@@ -28,8 +29,8 @@ const Ateliers = () => {
                         <div className="md:w-1/2 md:max-w-[400px] px-4 md:my-4">
                             <img src="/photos/relax-sonore.jpeg" alt="groupe de personnes enlassés" className="h-full bg-contain" />
                         </div>
-
                     </div>
+                        <Plumes />
 
 
                     {/* BOX 2 */}
