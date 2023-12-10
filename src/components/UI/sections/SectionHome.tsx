@@ -5,7 +5,7 @@ const SectionHome = () => {
         <section itemScope itemType="https://schema.org/Person" className="flex flex-col items-center md:flex-row-reverse md:justify-evenly h-screen md:h-[calc(100vh-56px)] w-full bg-gradient-to-br from-tealB via-tealE to-tealC z-0">
 
             {/* BOX INFOS */}
-            <div className="flex flex-col items-center justify-evenly h-3/5 mt-12 md:mt-0 md:w-1/2 md:h-auto md:pr-8">
+            <div className="flex flex-col items-center justify-evenly h-3/5 mt-12 md:mt-0 md:w-1/2 md:h-auto md:pr-10 xl:pr-20">
                 <div className='md:mb-4'>
                     <h1 itemProp="jobTitle" className="font-title text-center text-noir text-4xl lg:text-5xl font-bold">NATUROPATHE<br/><span itemProp="addressLocality" className='text-lg pt-4'><MapPin className='inline' />Romans-sur-Isère</span></h1>
                 </div>
