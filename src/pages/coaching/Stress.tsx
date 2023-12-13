@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Plumes from "../../components/UI/plumes/Plumes";
 import SectionInfos from "../../components/UI/sections/SectionInfos";
+import { Link } from "react-router-dom";
 
 const Stress = () => {
     useEffect(() => {
@@ -69,6 +70,10 @@ const Stress = () => {
                         <li>▸ A la naissance</li>
                     </ul>
 
+                </div>
+                <div className="mt-8 flex flex-col items-center">
+                    <p className="text-center">Si vous souhaitez également tonifier votre corps ou retrouver un bien-être corporel, vous pouvez consulter le troisième pilier:</p>
+                    <Link to="/sport" className="cursor-pointer text-tealJ hover:text-tealH">SPORT SANTÉ</Link>
                 </div>
                 <Plumes />
             </div>

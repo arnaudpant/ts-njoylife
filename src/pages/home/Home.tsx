@@ -15,7 +15,7 @@ const Home: React.FC = () => {
             <SectionMassages />
             <SectionEvenements />
             <SectionCallToAction />
-            <SectionInfos />
+            <SectionInfos map={true} />
         </>
     );
 };

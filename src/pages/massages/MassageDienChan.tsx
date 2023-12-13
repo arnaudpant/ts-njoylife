@@ -29,7 +29,7 @@ const MassageDienChan = () => {
             </div>
 
             <Plumes />
-            <SectionInfos  />
+            <SectionInfos map={false} />
         </div>
     );
 };

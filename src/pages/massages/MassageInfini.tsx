@@ -30,7 +30,7 @@ const MassageInfini = () => {
                 </div>
 
             <Plumes />
-            <SectionInfos />
+            <SectionInfos map={false}  />
         </div>
     );
 };

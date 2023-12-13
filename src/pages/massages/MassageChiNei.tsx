@@ -34,7 +34,7 @@ const MassageChiNei = () => {
         </div>
 
       <Plumes />
-      <SectionInfos />
+      <SectionInfos map={false}  />
     </div>
   );
 };

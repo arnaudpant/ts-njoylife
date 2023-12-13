@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Plumes from "../../components/UI/plumes/Plumes";
 import SectionInfos from "../../components/UI/sections/SectionInfos";
+import { Link } from "react-router-dom";
 
 
 const Nutrition = () => {
@@ -9,7 +10,7 @@ const Nutrition = () => {
             top: 0,
         })
     }, [])
-    
+
     return (
         <>
             <div className="font-title container max-w-screen-lg flex flex-col mx-auto mt-14 md:mt-0 px-4" id="top-page">
@@ -108,6 +109,10 @@ const Nutrition = () => {
                         légumes lacto-fermentés… en fonction de vos demandes et
                         de vos besoins.
                     </p>
+                    <div className="mt-8 flex flex-col items-center">
+                        <p className="text-center">Si vous souhaitez également restaurer l'harmonie entre le corps et l'esprit, vous pouvez consulter le deuxième pilier:</p>
+                        <Link to="/stress" className="cursor-pointer text-tealJ hover:text-tealH">GESTION des STRESS et des EMOTIONS</Link>
+                    </div>
                 </div>
                 <Plumes />
             </div>

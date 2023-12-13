@@ -70,7 +70,7 @@ const Ateliers = () => {
 
             </Sections>
 
-            <SectionInfos />
+            <SectionInfos map={false} />
         </>
     );
 };

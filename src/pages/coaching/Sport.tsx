@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Plumes from "../../components/UI/plumes/Plumes";
 import SectionInfos from "../../components/UI/sections/SectionInfos";
+import { Link } from "react-router-dom";
 
 const Sport = () => {
     useEffect(() => {
@@ -44,6 +45,11 @@ const Sport = () => {
                         <li>▸ Ecole du dos</li>
                     </ul>
 
+                </div>
+
+                <div className="mt-8 flex flex-col items-center">
+                    <p className="text-center">Si vous souhaitez également retrouver une meilleure hygiène de vie, vous pouvez consulter le premier pilier:</p>
+                    <Link to="/nutrition" className="cursor-pointer text-tealJ hover:text-tealH">NUTRITION</Link>
                 </div>
                     <Plumes />
             </div>

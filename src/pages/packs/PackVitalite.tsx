@@ -41,7 +41,7 @@ const PackVitalite = () => {
                     <Plumes />
                 </div>
             </div>
-            <SectionInfos />
+            <SectionInfos map={false} />
         </>
     );
 };

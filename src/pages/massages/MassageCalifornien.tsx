@@ -34,7 +34,7 @@ const MassageCalifornien = () => {
             <Plumes />
 
 
-            <SectionInfos />
+            <SectionInfos map={false} />
         </div>
     );
 };
