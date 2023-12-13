@@ -1,7 +1,7 @@
-import { CardsCoachingLlist, CardCoachingInfo } from "../../../types/CardsCoachingList";
-import Plumes from "../../Plumes";
-import CardCoaching from "../cards/CardCoaching";
-import Sections from "./Sections";
+import { CardsCoachingLlist, CardCoachingInfo } from "../../types/CardsCoachingList";
+import Plumes from "../../components/UI/plumes/Plumes";
+import CardCoaching from "../../components/UI/cards/CardCoaching";
+import Sections from "../../components/UI/sections/Sections";
 
 
 const SectionCoaching: React.FC = () => {

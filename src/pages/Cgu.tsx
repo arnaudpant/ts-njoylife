@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Plumes from "../components/Plumes";
+import Plumes from "../components/UI/plumes/Plumes";
 import Sections from "../components/UI/sections/Sections";
 
 

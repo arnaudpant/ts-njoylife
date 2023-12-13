@@ -1,9 +1,9 @@
-import Sections from "./Sections";
-import { CardsMassageList } from "../../../types/CardsMassageList";
+import Sections from "../../components/UI/sections/Sections";
+import { CardsMassageList } from "../../types/CardsMassageList";
 
-import CardMassage from "../cards/CardMassage";
-import Plumes from "../../Plumes";
-import { CardsReflexologieList } from "../../../types/CardsReflexologie";
+import CardMassage from "../../components/UI/cards/CardMassage";
+import Plumes from "../../components/UI/plumes/Plumes";
+import { CardsReflexologieList } from "../../types/CardsReflexologie";
 
 
 const SectionMassages = () => {

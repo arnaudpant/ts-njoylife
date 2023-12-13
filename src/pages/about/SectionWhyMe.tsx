@@ -1,11 +1,11 @@
-import Plumes from "../../Plumes";
+import Plumes from "../../components/UI/plumes/Plumes";
 
 
 const SectionWhyMe = () => {
     return (
         <section className="flex flex-col justify-center items-center mt-4 bg-tealB">
             <h2 className="font-title text-2xl md:text-4xl font-semibold m-5 pt-4 md:pt-8">Pourquoi me choisir ?</h2>
-            <h2 className="text-xl md:text-3xl m-2">Naturopathe et aussi ...</h2>
+            <h3 className="text-xl md:text-3xl m-2">Naturopathe et aussi ...</h3>
             <div className="container mx-auto px-4 my-4">
                 <p className="pb-4">
                     Je fais partie des naturopathes à être diplomée d'Etat

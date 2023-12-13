@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import NavbarLinks from "../../types/NavbarLinks";
 import { ReactNode } from "react";
-import Plumes from "../Plumes";
+import Plumes from "../UI/plumes/Plumes";
 import { useToggleMenuBurger } from "../../context/ToggleMenuBurger";
 
 

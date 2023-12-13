@@ -1,4 +1,4 @@
-import Plumes from "../components/Plumes";
+import Plumes from "../components/UI/plumes/Plumes";
 import SectionInfos from "../components/UI/sections/SectionInfos";
 import Sections from "../components/UI/sections/Sections";
 

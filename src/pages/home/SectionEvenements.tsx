@@ -1,4 +1,4 @@
-import Sections from "./Sections";
+import Sections from "../../components/UI/sections/Sections";
 
 
 const SectionEvenements = () => {

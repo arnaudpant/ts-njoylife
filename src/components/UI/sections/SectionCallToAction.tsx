@@ -1,4 +1,4 @@
-import Plumes from "../../Plumes";
+import Plumes from "../plumes/Plumes";
 import Bouton from "../buttons/Bouton";
 import Sections from "./Sections";
 

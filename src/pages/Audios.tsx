@@ -1,4 +1,4 @@
-import Plumes from "../components/Plumes";
+import Plumes from "../components/UI/plumes/Plumes";
 
 
 
@@ -18,7 +18,7 @@ const Audios = () => {
 
                 <div>
                     <div className="px-4 pt-4 pb-6 my-6 bg-tealC rounded-xl">
-                        <h3 className="pb-2">Le cercle d'amour</h3>
+                        <h2 className="pb-2">Le cercle d'amour</h2>
                         <audio controls preload="auto" src="/audio/Relax7.mp4"
                             controlsList="nodownload">
                             Votre navigateur ne supporte pas la balise audio
@@ -27,7 +27,7 @@ const Audios = () => {
 
 
                     <div className="px-4 pt-4 pb-6 my-6 bg-tealC rounded-xl">
-                        <h3 className="pb-2">Respiration carrée sur 6 temps</h3>
+                        <h2 className="pb-2">Respiration carrée sur 6 temps</h2>
                         <audio controls preload="auto" src="/audio/Relax2 respiration-carree.m4a"
                             controlsList="nodownload">
                             Votre navigateur ne supporte pas la balise audio
@@ -36,7 +36,7 @@ const Audios = () => {
 
 
                     <div className="px-4 pt-4 pb-6 my-6 bg-tealC rounded-xl">
-                        <h3 className="pb-2">Libérez votre mental</h3>
+                        <h2 className="pb-2">Libérez votre mental</h2>
                         <audio controls preload="auto" src="/audio/Relax3 liberez votre mental.m4a"
                             controlsList="nodownload">
                             Votre navigateur ne supporte pas la balise audio
@@ -46,7 +46,7 @@ const Audios = () => {
 
                 <div>
                     <div className="px-4 pt-4 pb-6 my-6 bg-tealC rounded-xl">
-                        <h3 className="pb-2">Les vagues du souffle</h3>
+                        <h2 className="pb-2">Les vagues du souffle</h2>
                         <audio controls preload="auto" src="/audio/Relax4 Les vagues du souffle.m4a"
                             controlsList="nodownload">
                             Votre navigateur ne supporte pas la balise audio
@@ -63,7 +63,7 @@ const Audios = () => {
 
 
                     <div className="px-4 pt-4 pb-6 my-6 bg-tealC rounded-xl">
-                        <h3>Ouverture et réceptivité</h3>
+                        <h2>Ouverture et réceptivité</h2>
                         <audio controls preload="auto" src="/audio/Relax6 ouverture.m4a"
                             controlsList="nodownload">
                             Votre navigateur ne supporte pas la balise audio
