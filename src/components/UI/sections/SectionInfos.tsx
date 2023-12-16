@@ -2,7 +2,7 @@ import { ListAdresses, Adresses } from '../../../types/ListAdresses';
 import Adress from "../Adress";
 
 type Props = {
-    map: boolean
+    map?: boolean
 }
 
 

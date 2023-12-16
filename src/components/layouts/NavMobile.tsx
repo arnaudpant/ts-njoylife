@@ -11,7 +11,6 @@ const NavMobile = () => {
     const navigate = useNavigate()
 
     function handleToggle(link:string){
-        console.log(link)
         setOpenBurger(false)
         navigate(`${link}`)
     }
