@@ -11,6 +11,7 @@ const SectionEvenements = () => {
 
                     {/* BOX 1 COURS COLLECTIF */}
                     <div className="w-full flex flex-col-reverse md:flex-row justify-center items-center">
+
                         {/*  Text */}
                         <div className="md:w-1/2 md:max-w-[640px] text-center p-8">
                             <h2 className="font-title text-2xl md:text-4xl font-semibold">COURS COLLECTIFS</h2>
@@ -23,17 +24,18 @@ const SectionEvenements = () => {
                                 </p>
                             </div>
                         </div>
+
                         {/* Image */}
-                        <div className="md:w-1/2 md:max-w-[640px]">
-                            <img src="/photos/photo-cours-collectif.jpg" alt="groupe de personnes enlassés" className="h-full bg-contain" />
+                        <div className="w-full md:w-1/2 max-h-[640px] flex justify-center">
+                            <img src="/photos/photo-cours-collectif.jpg" alt="groupe de personnes enlassés" />
                         </div>
                     </div>
 
                     {/* BOX 2 PILATE */}
                     <div className="w-full flex flex-col md:flex-row justify-center items-center">
                         {/* Image */}
-                        <div className="md:w-1/2 md:max-w-[640px]">
-                            <img src="/photos/pilate2.jpg" alt="groupe de personnes enlassés by @jaspindersingh on unsplash" className="h-full bg-contain" />
+                        <div className="w-full md:w-1/2 max-h-[640px] flex justify-center">
+                            <img src="/photos/pilate2.jpg" alt="groupe de personnes enlassés by @jaspindersingh on unsplash" />
                         </div>
                         <div className="md:w-1/2 md:max-w-[640px] text-center p-8">
                             {/* Text */}
