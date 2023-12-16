@@ -6,7 +6,7 @@ const SectionAbout = () => {
             {/* TITLES */}
             <h1 className="font-title text-2xl md:text-4xl font-semibold m-5 pt-4 md:pt-8">Mon parcours</h1>
             <h2 itemProp="name" className="text-xl md:text-3xl m-2">Je suis Jo&euml;lle Corda</h2>
-            <h3 itemProp="jobTitle" className="md:text-xl">Naturopathe, Sophrologue et Éducatrice Sportive</h3>
+            <h3 itemProp="jobTitle" className="md:text-xl px-2 text-center">Naturopathe, Sophrologue et Éducatrice Sportive</h3>
             {/* BLOC 1 */}
             <div className="flex flex-col md:flex-row items-center gap-8 mt-4">
                 <div className="md:w-1/3">
