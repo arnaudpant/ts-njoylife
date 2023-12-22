@@ -24,31 +24,38 @@ const Nutrition = () => {
 
                 <div className="my-4">
                     <h2 className="text-xl md:text-2xl font-semibold my-4">
-                        Un accompagnement personnalisé
+                    Accompagnement Naturopathique Personnalisé pour une Santé Holistique
                     </h2>
                     <p>
-                        Selon vos besoins, votre rythme et toutes vos
-                        particularités pour retrouver la Santé par:
+                    Découvrez un accompagnement individualisé, adapté à vos besoins uniques et rythme de vie pour retrouver un bien-être global:
                     </p>
                     <ul className="pl-2 md:pl-4">
-                        <li>
-                            ▸ Une <b>alimentation équilibrée</b> et respectueuse
-                            de qui vous êtes.
+                        <li className="font-bold pt-4">
+                            ▸ Alimentation Holistique
                         </li>
-                        <li>
-                            ▸ Un bon <b>fonctionnement intestinal</b> (le système
-                            digestif, 1er cerveau pour nous Naturopathes, est en
-                            lien avec notre système nerveux).
+                        <p className="pl-4 pb-4">
+                        Une alimentation équilibrée personnalisée qui respecte votre identité pour favoriser la santé physique et mentale.
+                        </p>
+
+                        <li className="font-bold">
+                            ▸ Santé Intestinale et Bien-Être
                         </li>
-                        <li>
-                            ▸ Des <b>conseils individualisés</b>, des astuces et
-                            des super aliments.
+                        <p className="pl-4 pb-4">
+                        L'équilibre digestif, essentiel pour les Naturopathes, est lié au système nerveux, favorisant un état optimal.P
+                        </p>
+
+                        <li className="font-bold">
+                            ▸ Conseils Personnalisés et Pratiques
                         </li>
+                        <p className="pl-4 pb-4">
+                        Des astuces, super aliments, et conseils adaptés pour une hygiène de vie en accord avec vos besoins uniques.
+                        </p>
+
                     </ul>
                 </div>
 
                 <div className="my-4">
-                    <h2 className="text-xl md:text-2xl font-semibold my-4">Déroulement d’un coaching</h2>
+                    <h2 className="text-xl md:text-2xl font-semibold my-4">Processus de Coaching Complet</h2>
 
                     <h3 className="text-lg md:text-xl py-2">Nous commençons par une <b>Anamnèse</b> :</h3>
                     <p>
