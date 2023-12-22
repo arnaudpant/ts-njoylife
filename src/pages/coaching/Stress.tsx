@@ -22,52 +22,72 @@ const Stress = () => {
 
                 <div className="my-4">
                     <h2 className="text-xl md:text-2xl font-semibold my-4">
-                        Les effets d’un Coaching
+                        Les Bienfaits d'un Accompagnement Personnel
                     </h2>
                     <p className="pb-2">
-                        Vous allez :
+                    L'accompagnement que je propose vise à vous offrir une transformation profonde et positive, vous permettant de :
                     </p>
                     <ul className="pl-2 md:pl-4 pb-4">
-                        <li>
-                            ▸ Vous libérer des tensions (physiques, émotionnelles
-                            et mentales)
+                        <li className="font-bold pt-4">
+                            ▸ Vous Libérer les Tensions et Renouer avec l'Équilibre.
                         </li>
-                        <li>
+                        <p className="pl-4">
+                            Une libération des tensions corporelles, émotionnelles et mentales pour retrouver un état d'équilibre.
+                        </p>
+
+                        <li className="font-bold pt-4">
                             ▸ Vous ressourcer, remobiliser vos énergies
                         </li>
-                        <li>
-                            ▸ Vous apaiser, vous recentrer (aide au sommeil…)
+                        <p className="pl-4">
+                            Une revitalisation de vos énergies, une redécouverte de votre vitalité pour un bien-être global.
+                        </p>
+
+                        <li className="font-bold pt-4">
+                            ▸ Vous apaiser, vous recentrer et vous reconnecter avec vous-même
                         </li>
-                        <li>
+                        <p className="pl-4">
+                            Un apaisement intérieur favorisant la sérénité au quotidien, notamment pour un sommeil de qualité.
+                        </p>
+
+                        <li className="font-bold pt-4">
                             ▸ Vous faire confiance, vous estimer à votre juste valeur
                         </li>
-                        <li>
+                        <p className="pl-4">
+                            Une meilleure estime de soi et une confiance renouvelée dans vos capacités personnelles.
+                        </p>
+                        
+                        <li className="font-bold pt-4">
                             ▸ Comprendre ce mal être que vous vivez
                         </li>
-                        <li>
+                        <p className="pl-4">
+                        Une exploration et compréhension des ressentis pour surmonter les obstacles.
+                        </p>
+
+                        <li className="font-bold pt-4">
                             ▸ Vivre sereinement et pleinement l’instant présent
                         </li>
+                        <p className="pl-4">
+                        Une pleine conscience pour vivre l'instant présent dans la quiétude et l'authenticité.
+                        </p>
                     </ul>
                     <p>
-                        Dans un cadre bienveillant, dans l’écoute et le
-                        non-jugement je vous propose des outils issus de la
-                        Sophrologie & la Relaxologie psychocorporelle :
-                        Conscience et utilisation de la respiration, conscience
-                        du corps et de ses capacités, gestion des émotions,
-                        gestion des conflits, ainsi que la Communication
-                        Consciente et la guérison du cœur.
+                    Dans un environnement chaleureux, sans jugement, je vous propose des outils issus de la Sophrologie et de la Relaxologie psychocorporelle. Ces techniques incluent la respiration consciente, la pleine conscience corporelle, la gestion émotionnelle, la résolution de conflits, ainsi que la communication consciente et la guérison émotionnelle.
                     </p>
                 </div>
 
 
                 <div className="my-4">
 
-                    <h2 className="text-xl md:text-2xl font-semibold my-4">La Sophrologie est efficace pour la préparation mentale</h2>
+                    <h2 className="text-xl md:text-2xl font-semibold my-4">La Sophrologie est efficace pour la préparation mentale pour diverses situations</h2>
                     <ul className="pl-2 md:pl-4">
-                        <li>▸ Aux examens, concours, entretiens d’embauche</li>
-                        <li>▸ Aux compétitions sportives</li>
-                        <li>▸ Aux interventions chirurgicales</li>
-                        <li>▸ A la naissance</li>
+                        <li className="font-bold pt-4">▸ Pour les Épreuves et Performances</li>
+                        <p className="pl-4">
+                        Une préparation mentale efficace pour les examens, concours, entretiens d'embauche, compétitions sportives.
+                        </p>
+                        <li className="font-bold pt-4">▸ Dans le Cadre Médical</li>
+                        <p className="pl-4">
+                        Un accompagnement adapté pour les interventions chirurgicales et pour vivre sereinement la naissance d'un enfant.
+                        </p>
                     </ul>
 
                 </div>
