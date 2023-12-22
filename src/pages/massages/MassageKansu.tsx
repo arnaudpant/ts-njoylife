@@ -21,10 +21,10 @@ const MassageKansu = () => {
                             Modelage Ayurvédique de la voûte plantaire.
                         </p>
                         <p>
-                            A l'aide d'un petit bol tibétain, le massage des zones réflexes du pied permet de détendre le corps tout entier.
+                            A l'aide d'un petit bol tibétain et d'huile de coco, le massage des zones réflexes du pied permet de détendre le corps tout entier.
                         </p>
                         <p>
-                            Il libère le stress et les tensions.
+                            Il libère le stress et les tensions accompagné de respirations conscientes guidées.
                         </p>
                     </div>
 

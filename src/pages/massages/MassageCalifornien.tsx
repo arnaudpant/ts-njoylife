@@ -27,6 +27,9 @@ const MassageCalifornien = () => {
                         <p>
                             Il sagit de mouvements d'effleurage longs et de pétrissages qui peuvent s'intensifier, sur peau nue, des pieds à la tête avec des huiles chaudes.
                         </p>
+                        <p>
+                            Massage intuitif, adapté aux besoins de votre corps dans l'instant présent.
+                        </p>
                     </div>
                 </div>
 
