@@ -20,7 +20,7 @@ const SectionHome = () => {
             {/* BOX WOMAN */}
             <div className="relative flex justify-center pb-4 h-2/5 md:w-2/5 lg:w-1/2 md:h-auto md:m-10 z-0">
                 {/* IMG Woman */}
-                <img src="home/home-woman.png" className="h-full md:max-h-[640px]" />
+                <img src="home/home-woman.png" className="h-full md:max-h-[640px]" alt='avatar de joelle corda' />
                 {/* Plume en rotation */}
                 <div className="absolute top-2 right-6 md:right-4 md:top-5 w-9 lg:w-16 md:w-12 animate-[plumerotate_3s_linear_infinite]">
                     <svg version="1.1"
