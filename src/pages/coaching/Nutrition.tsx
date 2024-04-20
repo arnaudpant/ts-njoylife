@@ -27,7 +27,7 @@ const Nutrition = () => {
                     Accompagnement Naturopathique Personnalisé pour une Santé Holistique
                     </h2>
                     <p>
-                    Découvrez un accompagnement individualisé, adapté à vos besoins uniques et rythme de vie pour retrouver un bien-être global:
+                    Découvrez un accompagnement individualisé, adapté à vos besoins uniques et rythmes de vie pour retrouver un bien-être global:
                     </p>
                     <ul className="pl-2 md:pl-4">
                         <li className="font-bold pt-4">
@@ -41,7 +41,7 @@ const Nutrition = () => {
                             ▸ Santé Intestinale et Bien-Être
                         </li>
                         <p className="pl-4 pb-4">
-                        L'équilibre digestif, essentiel pour les Naturopathes, est lié au système nerveux, favorisant un état optimal.P
+                        L'équilibre digestif, essentiel pour les Naturopathes, est lié au système nerveux, favorisant un état optimal.
                         </p>
 
                         <li className="font-bold">

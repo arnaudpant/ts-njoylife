@@ -14,32 +14,43 @@ import Ateliers from "./pages/Ateliers"
 import Audios from "./pages/Audios"
 import Tarifs from "./pages/Tarifs"
 import MassageChiNei from "./pages/massages/MassageChiNei"
+import Sonore from "./pages/massages/Sonore"
 
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/nutrition" element={<Nutrition />} />
-          <Route path="/stress" element={<Stress />} />
-          <Route path="/sport" element={<Sport />} />
-          <Route path="/cgu" element={<Cgu />} />
-          <Route path="/massage-californien" element={<MassageCalifornien />} />
-          <Route path="/massage-infini" element={<MassageInfini />} />
-          <Route path="/massage-kansu" element={<MassageKansu />} />
-          <Route path="/massage-dienchan" element={<MassageDienChan />} />
-          <Route path="/massage-chinei" element={<MassageChiNei />} />
-          <Route path="/tarifs" element={<Tarifs />} />
-          <Route path="/ateliers" element={<Ateliers />} />
-          <Route path="/audios" element={<Audios />} />
-          <Route path="/*" element={<Home />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  )
+      <BrowserRouter>
+          <Routes>
+              <Route element={<Layout />}>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/about" element={<About />} />
+                  <Route path="/nutrition" element={<Nutrition />} />
+                  <Route path="/stress" element={<Stress />} />
+                  <Route path="/sport" element={<Sport />} />
+                  <Route path="/cgu" element={<Cgu />} />
+                  <Route
+                      path="/massage-californien"
+                      element={<MassageCalifornien />}
+                  />
+                  <Route path="/massage-infini" element={<MassageInfini />} />
+                  <Route path="/massage-kansu" element={<MassageKansu />} />
+                  <Route
+                      path="/massage-dienchan"
+                      element={<MassageDienChan />}
+                  />
+                  <Route path="/massage-chinei" element={<MassageChiNei />} />
+                  <Route
+                      path="/reflection-sonore"
+                      element={<Sonore />}
+                  />
+                  <Route path="/tarifs" element={<Tarifs />} />
+                  <Route path="/ateliers" element={<Ateliers />} />
+                  <Route path="/audios" element={<Audios />} />
+                  <Route path="/*" element={<Home />} />
+              </Route>
+          </Routes>
+      </BrowserRouter>
+  );
 }
 
 export default App

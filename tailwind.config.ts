@@ -53,6 +53,7 @@ export default {
 				'page-kansu': "url('/photos/massage/page-kansu.jpg')",
 				'page-dienchan': "url('/photos/massage/page-dienchan.jpg')",
 				'page-chinei': "url('/photos/massage/page-chinei.jpg')",
+				'page-sonore': "url('/photos/massage/sonore.png')",
 			}
 		},
 	},
