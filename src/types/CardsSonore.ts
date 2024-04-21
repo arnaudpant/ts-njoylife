@@ -10,8 +10,8 @@ type CardCardsSonoreInfo = {
 export const CardsSonore: CardCardsSonoreInfo[] = [
     {
         imgSrc: "/cards/massages/sonore.png",
-        imgAlt: "Reflexion sonore",
-        title: "Réflexion sonore",
+        imgAlt: "Relaxation sonore",
+        title: "Informations",
         time: "60min",
         link: "/reflection-sonore"
     },

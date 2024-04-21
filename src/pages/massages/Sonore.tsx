@@ -27,7 +27,7 @@ const Sonore = () => {
                         J’utilise les sons et les vibrations des instruments qui
                         vous conviennent pour un voyage unique pour Vous. Les
                         bols de cristal, tibétains, le handpan, l’arbre de
-                        pluie, les carillons et d’autres instrument intuitifs
+                        pluie, les carillons et d’autres instruments intuitifs
                         ainsi que ma voix. Confortablement allongé(e), les yeux
                         fermés, vous vous laissez bercer par le chant des
                         instruments, qui vous mène peu à peu au lâcher prise.
