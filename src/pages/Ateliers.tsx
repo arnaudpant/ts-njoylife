@@ -1,7 +1,9 @@
+import { CalendarSearch, Clock7, Info, MapPin } from "lucide-react";
 import Plumes from "../components/UI/plumes/Plumes";
 import SectionInfos from "../components/UI/sections/SectionInfos";
 import Sections from "../components/UI/sections/Sections";
-
+import Bouton from "../components/UI/buttons/Bouton";
+import { Link } from "react-router-dom";
 
 const Ateliers = () => {
     return (
@@ -12,6 +14,79 @@ const Ateliers = () => {
                 </h1>
 
                 <div className="flex flex-col items-center gap-8 md:gap-0">
+                    <div className="flex flex-col justify-center items-center p-4 my-8 mx-2 bg-action text-center text-blanc rounded-lg shadow-md">
+                        <p className="pb-4 text-white text-xl">
+                            PROGRAMME 2025
+                        </p>
+                        <h3 className="font-title text-lg md:text-xl font-semibold tracking-widest pb-1">
+                            Relaxation guidée au{" "}
+                            <span className="text-secondaire">tambour</span>,{" "}
+                            <span className="text-secondaire">
+                                bols de cristal
+                            </span>
+                            , instruments intuitif & voix
+                        </h3>
+                        <p>
+                            « Voyage intérieur pour libérer les tensions et
+                            retrouver la sérénité »
+                        </p>
+                        <p>
+                            Ces séances sont basées sur une des fonctions
+                            essentielles à la vie :{" "}
+                            <span className="text-secondaire">
+                                la respiration
+                            </span>
+                        </p>
+                        <CalendarSearch className="mt-4" />
+                        <p className="pt-2">Mercredi 5 février 2025</p>
+                        <p>Vendredi 7 mars 2025</p>
+                        <p>Vendredi 4 avril 2025</p>
+                        <p>Mercredi 7 mai 2025</p>
+                        <p>Mercredi 11 juin 2025</p>
+                        <div className="flex items-center justify-center gap-2 my-4">
+                            <Clock7 />
+                            <p>De 18h à 19h15</p>
+                        </div>
+                        <div className="flex items-center justify-center gap-2">
+                            <MapPin />
+                            <Link
+                                to="https://lafermedesessarts.com/stages-formations-retraites-art-therapie-yoga-chamanisme/"
+                                target="_blank"
+                            >
+                                <p>
+                                    Ferme des Essards <br />
+                                </p>
+                            </Link>
+                        </div>
+                        <Link
+                            to="https://lafermedesessarts.com/stages-formations-retraites-art-therapie-yoga-chamanisme/"
+                            target="_blank"
+                        >
+                            <p>
+                                705 chemin du four à chaud
+                                <br />
+                                26750 Saint Paul les Romans
+                            </p>
+                        </Link>
+                        <p className="pt-4 text-sm">
+                            Participation consciente 20€
+                        </p>
+                        <div className="flex items-center justify-center gap-2 mt-6 text-secondaire">
+                            <p className="text-lg">Réservation et info</p>
+                            <Info />
+                        </div>
+                        <div
+                            itemScope
+                            itemType="https://schema.org/PostalAddress"
+                            className="flex flex-col md:flex-row gap-4 my-4"
+                        >
+                            <Bouton
+                                itemProp="telephone"
+                                href="tel:+33651486895"
+                                label="+33(0)6 51 48 68 95"
+                            />
+                        </div>
+                    </div>
                     {/* BOX 1 */}
                     <div className="w-full flex flex-col md:flex-row justify-center items-center">
                         {/*  Text */}

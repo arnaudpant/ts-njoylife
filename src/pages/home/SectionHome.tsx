@@ -21,7 +21,7 @@ const SectionHome = () => {
                             className="text-sm font-normal md:text-lg pt-4"
                         >
                             <MapPin className="inline font-normal" />
-                            Romans-sur-Isère
+                            26300 MARCHES
                         </span>
                     </h1>
                 </div>

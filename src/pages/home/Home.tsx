@@ -7,6 +7,7 @@ import SectionInfos from "../../components/UI/sections/SectionInfos";
 import SectionMassages from "./SectionMassages";
 import { useEffect, useState } from "react";
 import { ChevronUpCircle } from 'lucide-react';
+import SectionPlanning from "./SectionPlanning";
 
 const Home: React.FC = () => {
     const [appBarStyle, setAppBarStyle] = useState(
@@ -41,19 +42,21 @@ const Home: React.FC = () => {
     return (
         <>
             <SectionHome />
+            <SectionPlanning />
             <SectionCoaching />
             <SectionAccompagnement />
             <SectionMassages />
             <SectionEvenements />
             <SectionCallToAction />
             <SectionInfos map={true} />
-            {
-                appBarStyle && (
-                    <div className="fixed right-4 bottom-4 animate-bounce cursor-pointer" onClick={handleClick} >
-                        <ChevronUpCircle className="text-tealG w-10 h-10" />
-                    </div>
-                )
-            }
+            {appBarStyle && (
+                <div
+                    className="fixed right-4 bottom-4 animate-bounce cursor-pointer"
+                    onClick={handleClick}
+                >
+                    <ChevronUpCircle className="text-tealG w-10 h-10" />
+                </div>
+            )}
         </>
     );
 };
