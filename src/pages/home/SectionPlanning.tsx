@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Plumes from "../../components/UI/plumes/Plumes";
 
 
 const SectionPlanning = () => {
@@ -12,10 +13,11 @@ const SectionPlanning = () => {
                 instruments intuitif & voix
             </p>
             <Link to="/ateliers">
-                <p className="text-lg pb-4">
-                    Toutes les infos et réservation dans la section <span className="text-action">ATELIERS</span>
+                <p className="text-lg pb-4 md:pb-8">
+                    Toutes les infos et réservation dans la section <span className="text-xl">ATELIERS</span>
                 </p>
             </Link>
+            <Plumes color="blanche" />
         </section>
     );
 };

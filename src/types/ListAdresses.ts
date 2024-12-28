@@ -43,7 +43,7 @@ export const ListAdresses: Adresses[] = [
     {
         id: "marches",
         jours: "Du lundi au samedi",
-        heures: "9h à 19h",
+        heures: "9h à 19h | Samedi: 17h",
         lieu: "",
         adresse: "78 Route de l’Arpenteur",
         ville: "26300 Marches"
