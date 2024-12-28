@@ -6,6 +6,7 @@ const SectionHome = () => {
             itemScope
             itemType="https://schema.org/Person"
             className="flex flex-col items-center md:flex-row-reverse md:justify-evenly h-screen md:h-[calc(100vh-56px)] w-full bg-gradient-to-br from-tealB via-tealE to-tealC z-0"
+            aria-label="Accueil"
         >
             {/* BOX INFOS */}
             <div className="flex flex-col items-center justify-evenly h-3/5 mx-4 md:mx-0 mt-12 md:mt-0 md:w-1/2 md:h-auto md:pr-10 xl:pr-20">
