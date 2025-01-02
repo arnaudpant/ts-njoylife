@@ -61,7 +61,7 @@ const Tarifs = () => {
                     <div className="bg-tealC col-span-4 pl-2">
                         Relaxation sonore - 60min
                     </div>
-                    <div className="bg-tealC text-center">15€/ Pers</div>
+                    <div className="bg-tealC text-center">20€/ Pers</div>
                     <div className="bg-tealC col-span-4 pl-2">
                         Cercle de pardon - 2H30
                     </div>
