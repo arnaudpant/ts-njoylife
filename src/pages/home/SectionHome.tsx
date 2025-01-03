@@ -15,11 +15,11 @@ const SectionHome = () => {
                         itemProp="jobTitle"
                         className="px-2 font-title text-center text-noir text-xl lg:text-5xl font-bold"
                     >
-                        NATUROPATHE
+                        NATUROPATHE 
                         <br />
-                        SOPHROLOGUE
+                        SOPHROLOGUE 
                         <br />
-                        COACH SPORTIVE
+                        COACH SPORTIVE 
                         <br />
                         <span
                             itemProp="addressLocality"
