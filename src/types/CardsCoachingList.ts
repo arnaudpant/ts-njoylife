@@ -30,6 +30,6 @@ export const CardsCoachingLlist: CardCoachingInfo[] = [
         title: 'SPORT SANTÉ',
         intro: 'Vous sortez:',
         liArr: ['▸ D\’une longue période sans activité physique', '▸ D\'une opération', '▸ D\'un burn-out, maladie, autre ...'],
-        link: "/sport"
+        link: "/coaching-sport"
     },
 ]

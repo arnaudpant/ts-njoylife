@@ -22,6 +22,6 @@ export const CardsPacksList: CardPacks[] = [
         imgSrc: "cards/packs/pack-sport.png",
         imgAlt: "personnes faisant du yoga dehors",
         title: "SPORT",
-        link: "/sport"
+        link: "/coaching-sport"
     },
 ]

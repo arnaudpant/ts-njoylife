@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Plumes from "../../components/UI/plumes/Plumes";
 import SectionInfos from "../../components/UI/sections/SectionInfos";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Sport = () => {
     useEffect(() => {
@@ -11,6 +12,18 @@ const Sport = () => {
     }, [])
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Coaching Sport</title>
+                <link
+                    rel="canonical"
+                    href="https://www.joelle-corda-naturopathe.fr/coaching-sport"
+                />
+                <meta
+                    name="description"
+                    content="Découvrez nos méthodes pour tonifier votre corps et retrouver le bien-être : Pilates, yoga slow, entraînement fonctionnel et école du dos. Des outils adaptés pour adultes, seniors et femmes enceintes."
+                />
+            </Helmet>
             <div
                 className="container max-w-screen-lg flex flex-col mx-auto mt-14 md:mt-0 px-4"
                 id="top-page"

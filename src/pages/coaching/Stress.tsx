@@ -143,7 +143,7 @@ const Stress = () => {
                         le troisième pilier:
                     </p>
                     <Link
-                        to="/sport"
+                        to="/coaching-sport"
                         className="cursor-pointer text-tealJ hover:text-tealH"
                     >
                         SPORT SANTÉ
