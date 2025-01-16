@@ -14,14 +14,16 @@ const Sport = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Coaching Sport</title>
+                <title>
+                    Coaching Sportif Personnalisé | Méthodes sur Mesure
+                </title>
                 <link
                     rel="canonical"
                     href="https://www.joelle-corda-naturopathe.fr/coaching-sport"
                 />
                 <meta
                     name="description"
-                    content="Découvrez nos méthodes pour tonifier votre corps et retrouver le bien-être : Pilates, yoga slow, entraînement fonctionnel et école du dos. Des outils adaptés pour adultes, seniors et femmes enceintes."
+                    content="Découvrez nos méthodes pour tonifier votre corps et retrouver le bien-être : Pilates, yoga et entraînement fonctionnel. Pour adultes, seniors et femmes enceintes."
                 />
             </Helmet>
             <div
