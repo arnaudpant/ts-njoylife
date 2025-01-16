@@ -14,7 +14,10 @@ const Stress = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Coaching Gestion des stress</title>
+                <title>
+                    Sophrologie & Gestion du Stress| Techniques de Relaxation et
+                    Développement Personnel
+                </title>
                 <link
                     rel="canonical"
                     href="https://www.joelle-corda-naturopathe.fr/coaching-gestion-stress"
