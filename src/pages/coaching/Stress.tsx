@@ -15,7 +15,7 @@ const Stress = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>
-                    Sophrologie & Gestion du Stress| Techniques de Relaxation et
+                    Sophrologie & Gestion du Stress | Relaxation et
                     Développement Personnel
                 </title>
                 <link

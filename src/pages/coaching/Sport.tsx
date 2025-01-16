@@ -23,7 +23,7 @@ const Sport = () => {
                 />
                 <meta
                     name="description"
-                    content="Découvrez nos méthodes pour tonifier votre corps et retrouver le bien-être : Pilates, yoga et entraînement fonctionnel. Pour adultes, seniors et femmes enceintes."
+                    content="Découvrez nos méthodes pour tonifier votre corps et retrouver le bien-être : Pilates, yoga, entraînement fonctionnel. Pour adultes et femmes enceintes."
                 />
             </Helmet>
             <div
