@@ -16,7 +16,7 @@ export const CardsPacksList: CardPacks[] = [
         imgSrc: "cards/packs/pack-stress.png",
         imgAlt: "femme seule sur la plage en méditation",
         title: "STRESS",
-        link: "/stress"
+        link: "/coaching-gestion-stress"
     },
     {
         imgSrc: "cards/packs/pack-sport.png",

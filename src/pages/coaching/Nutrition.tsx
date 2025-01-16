@@ -157,7 +157,7 @@ const Nutrition = () => {
                             deuxième pilier:
                         </p>
                         <Link
-                            to="/stress"
+                            to="/coaching-gestion-stress"
                             className="cursor-pointer text-tealJ hover:text-tealH"
                         >
                             GESTION des STRESS et des EMOTIONS

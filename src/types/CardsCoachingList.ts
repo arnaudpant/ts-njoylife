@@ -22,7 +22,7 @@ export const CardsCoachingLlist: CardCoachingInfo[] = [
         title: 'GESTION des STRESS et des EMOTIONS',
         intro: 'Vous souffrez de:',
         liArr: ['▸ Anxiétés, angoisses, insomnies', '▸ Migraines, acouphènes', '▸ Ulcère, contractures, spasmophilie...'],
-        link: "/stress"
+        link: "/coaching-gestion-stress"
     },
     {
         imgSrc: 'cards/coaching/card-sport.jpg',
