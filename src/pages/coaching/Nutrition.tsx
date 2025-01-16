@@ -15,14 +15,17 @@ const Nutrition = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Coaching Nutrition</title>
+                <title>
+                    Bilan Naturopathique & Coaching Nutritionnel | Santé
+                    Holistique & Bien-être
+                </title>
                 <link
                     rel="canonical"
                     href="https://www.joelle-corda-naturopathe.fr/coaching-nutrition"
                 />
                 <meta
                     name="description"
-                    content="Découvrez notre accompagnement naturopathique personnalisé pour une santé holistique. Alimentation équilibrée, santé intestinale et conseils pratiques adaptés à vos besoins"
+                    content="Découvrez notre accompagnement naturopathique personnalisé pour une alimentation équilibrée et nos conseils pratiques adaptés à vos besoins"
                 />
             </Helmet>
             <div
