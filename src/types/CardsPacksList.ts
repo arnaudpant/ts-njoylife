@@ -10,7 +10,7 @@ export const CardsPacksList: CardPacks[] = [
         imgSrc: "/cards/packs/pack-nutrition.png",
         imgAlt: "fruits et légumes",
         title: "NUTRITION",
-        link: "/nutrition"
+        link: "/coaching-nutrition"
     },
     {
         imgSrc: "cards/packs/pack-stress.png",

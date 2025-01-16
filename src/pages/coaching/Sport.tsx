@@ -94,7 +94,7 @@ const Sport = () => {
                         hygiène de vie, vous pouvez consulter le premier pilier:
                     </p>
                     <Link
-                        to="/nutrition"
+                        to="/coaching-nutrition"
                         className="cursor-pointer text-tealJ hover:text-tealH"
                     >
                         NUTRITION

@@ -14,7 +14,7 @@ export const CardsCoachingLlist: CardCoachingInfo[] = [
         title: 'NUTRITION',
         intro: 'Vous voulez:',
         liArr: ['▸ Perdre du poids ou en reprendre', '▸ Rééquilibrer votre flore intestinale', '▸ Retrouver la santé'],
-        link: "/nutrition"
+        link: "/coaching-nutrition"
     },
     {
         imgSrc: 'cards/coaching/card-stress.jpg',
