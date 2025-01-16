@@ -8,6 +8,7 @@ import SectionMassages from "./SectionMassages";
 import { useEffect, useState } from "react";
 import { ChevronUpCircle } from 'lucide-react';
 import SectionPlanning from "./SectionPlanning";
+import { Helmet } from "react-helmet";
 
 const Home: React.FC = () => {
     const [appBarStyle, setAppBarStyle] = useState(
@@ -41,6 +42,20 @@ const Home: React.FC = () => {
 
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>
+                    Naturopathe sophrologue coach sportif 26300 Marches
+                </title>
+                <link
+                    rel="canonical"
+                    href="https://www.joelle-corda-naturopathe.fr/"
+                />
+                <meta
+                    name="description"
+                    content="Retrouvez votre poids de forme, gérez vos stress et retrouvez une activité physique avec Joelle Corda, naturopathe, sophrologue. 26300 Marches"
+                />
+            </Helmet>
             <SectionHome />
             <SectionPlanning />
             <SectionCoaching />
