@@ -9,6 +9,8 @@ import { useEffect, useState } from "react";
 import { ChevronUpCircle } from 'lucide-react';
 import SectionPlanning from "./SectionPlanning";
 import { Helmet } from "react-helmet";
+import { createPortal } from "react-dom";
+import Modal from "../../components/UI/modal/Modal";
 
 const Home: React.FC = () => {
     const [appBarStyle, setAppBarStyle] = useState(
@@ -21,6 +23,8 @@ const Home: React.FC = () => {
             behavior: 'smooth'
         })
     }
+
+    const [showModal, setShowModal] = useState<boolean>(true);
 
     useEffect(() => {
         const handleScroll = (event: any): void => {
@@ -41,7 +45,7 @@ const Home: React.FC = () => {
     }, [])
 
     return (
-        <>
+        <div className="relative">
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>
@@ -72,7 +76,12 @@ const Home: React.FC = () => {
                     <ChevronUpCircle className="text-tealG w-10 h-10" />
                 </div>
             )}
-        </>
+            {showModal &&
+                createPortal(
+                    <Modal setShowModal={setShowModal} />,
+                    document.body
+                )}
+        </div>
     );
 };
 
