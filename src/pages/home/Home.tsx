@@ -45,7 +45,7 @@ const Home: React.FC = () => {
     }, [])
 
     return (
-        <div className="relative">
+        <>
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>
@@ -81,7 +81,7 @@ const Home: React.FC = () => {
                     <Modal setShowModal={setShowModal} />,
                     document.body
                 )}
-        </div>
+        </>
     );
 };
 
