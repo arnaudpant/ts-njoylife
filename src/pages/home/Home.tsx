@@ -6,43 +6,45 @@ import SectionHome from "./SectionHome";
 import SectionInfos from "../../components/UI/sections/SectionInfos";
 import SectionMassages from "./SectionMassages";
 import { useEffect, useState } from "react";
-import { ChevronUpCircle } from 'lucide-react';
+import { ChevronUpCircle } from "lucide-react";
 import SectionPlanning from "./SectionPlanning";
 import { Helmet } from "react-helmet";
 import { createPortal } from "react-dom";
 import Modal from "../../components/UI/modal/Modal";
 
 const Home: React.FC = () => {
-    const [appBarStyle, setAppBarStyle] = useState(
-        false
-    )
+    const [appBarStyle, setAppBarStyle] = useState(false);
 
     const handleClick = () => {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth'
-        })
-    }
+            behavior: "smooth",
+        });
+    };
 
-    const [showModal, setShowModal] = useState<boolean>(true);
+    const [showModal, setShowModal] = useState<boolean>(false);
 
     useEffect(() => {
         const handleScroll = (event: any): void => {
-            const scrollHeight = event.currentTarget.scrollY
+            const scrollHeight = event.currentTarget.scrollY;
 
             if (scrollHeight > 800) {
-                setAppBarStyle(
-                    true
-                )
+                setAppBarStyle(true);
             } else {
-                setAppBarStyle(
-                    false
-                )
+                setAppBarStyle(false);
             }
-        }
-        window.addEventListener('scroll', handleScroll)
-        return () => window.removeEventListener('scroll', handleScroll)
-    }, [])
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setShowModal(true);
+        }, 4000);
+
+        return () => clearTimeout(timer);
+    }, []);
 
     return (
         <>

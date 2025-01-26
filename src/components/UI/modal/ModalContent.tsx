@@ -7,7 +7,7 @@ const ModalContent = () => {
                 <h2 className="text-2xl pb-4 text-secondaire">
                     Cercle de Pardon & Breathwork
                 </h2>
-                <p className="text-action">Dimanche 2 février</p>
+                <p className="text-action text-lg">Dimanche 2 février 2025</p>
                 <p className="text-action">De 10h à 13h</p>
                 <p className="text-action">Cornas 07130</p>
             </div>
@@ -38,7 +38,13 @@ const ModalContent = () => {
             <div className="text-center">
                 <h3>Vos accompagnantes :</h3>
                 <p className="pt-2">Joëlle Sophrologue, Coach holistique</p>
-                <Link className="text-secondaire" to="https://melanie-dimino.fr">Mélanie Facilitatrice en Breathwork</Link>
+                <Link
+                    className="text-secondaire"
+                    to="https://melanie-dimino.fr"
+                    target="_blank"
+                >
+                    Mélanie Facilitatrice en Breathwork
+                </Link>
             </div>
         </div>
     );
