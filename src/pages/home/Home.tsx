@@ -41,7 +41,7 @@ const Home: React.FC = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setShowModal(true);
-        }, 4000);
+        }, 3000);
 
         return () => clearTimeout(timer);
     }, []);

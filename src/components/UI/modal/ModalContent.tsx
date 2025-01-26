@@ -1,10 +1,21 @@
+import { X } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const ModalContent = () => {
+type Props = {
+    setShowModal: React.Dispatch<React.SetStateAction<boolean>>;
+};
+
+const ModalContent = ({ setShowModal }: Props) => {
     return (
-        <div className="flex flex-col gap-2 items-center justify-center">
+        <div className="bg-blanc rounded-lg p-6 max-w-[90%] max-h-[90vh] overflow-auto relative">
+            <button
+                className="absolute right-2 top-2 text-action"
+                onClick={() => setShowModal(false)}
+            >
+                <X width={40} height={40} />
+            </button>
             <div className="text-center">
-                <h2 className="text-2xl pb-4 text-secondaire">
+                <h2 className="text-2xl pb-4 pt-4 text-secondaire">
                     Cercle de Pardon & Breathwork
                 </h2>
                 <p className="text-action text-lg">Dimanche 2 février 2025</p>
