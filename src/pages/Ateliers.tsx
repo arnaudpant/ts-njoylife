@@ -30,7 +30,7 @@ const Ateliers = () => {
                             « Voyage intérieur pour libérer les tensions et
                             retrouver la sérénité »
                         </p>
-                        <div className="flex flex-col md:flex-row flex-wrap gap-8 m-4 justify-center">
+                        <div className="m-4">
                             <img
                                 src="/photos/bols.jpg"
                                 alt="interieur du cabinet de consultation"
@@ -150,7 +150,6 @@ const Ateliers = () => {
                             <img
                                 src="/photos/joelle_relax_sonore.jpg"
                                 alt="Relaxation sonore"
-                                className="h-full bg-contain"
                             />
                         </div>
                     </div>
@@ -163,7 +162,7 @@ const Ateliers = () => {
                             <img
                                 src="/photos/cercle-pardon.jpeg"
                                 alt="logo cercle de pardon"
-                                className="h-full bg-contain shadow-lg"
+                                className="shadow-lg"
                             />
                         </div>
 
