@@ -9,8 +9,8 @@ import { useEffect, useState } from "react";
 import { ChevronUpCircle } from "lucide-react";
 import SectionPlanning from "./SectionPlanning";
 import { Helmet } from "react-helmet";
-import { createPortal } from "react-dom";
-import Modal from "../../components/UI/modal/Modal";
+//import { createPortal } from "react-dom";
+//import Modal from "../../components/UI/modal/Modal";
 
 const Home: React.FC = () => {
     const [appBarStyle, setAppBarStyle] = useState(false);
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
         });
     };
 
-    const [showModal, setShowModal] = useState<boolean>(false);
+    //const [showModal, setShowModal] = useState<boolean>(false);
 
     useEffect(() => {
         const handleScroll = (event: any): void => {
@@ -38,13 +38,13 @@ const Home: React.FC = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setShowModal(true);
-        }, 3000);
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //         setShowModal(true);
+    //     }, 3000);
 
-        return () => clearTimeout(timer);
-    }, []);
+    //     return () => clearTimeout(timer);
+    // }, []);
 
     return (
         <>
@@ -78,11 +78,11 @@ const Home: React.FC = () => {
                     <ChevronUpCircle className="text-tealG w-10 h-10" />
                 </div>
             )}
-            {showModal &&
+            {/* {showModal &&
                 createPortal(
                     <Modal setShowModal={setShowModal} />,
                     document.body
-                )}
+                )} */}
         </>
     );
 };
