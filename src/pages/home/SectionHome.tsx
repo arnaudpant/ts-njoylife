@@ -6,7 +6,7 @@ const SectionHome = () => {
         <section
             itemScope
             itemType="https://schema.org/Person"
-            className="flex flex-col md:flex-row-reverse items-center md:justify-evenly h-screen md:h-[calc(100vh-56px)] w-full bg-gradient-to-br from-tealB via-tealE to-tealC z-0"
+            className="flex flex-col md:flex-row-reverse items-center md:justify-evenly h-dvh md:h-[calc(100vh-56px)] w-full bg-gradient-to-br from-tealB via-tealE to-tealC z-0"
             aria-label="Accueil"
         >
             {/* BOX INFOS */}
