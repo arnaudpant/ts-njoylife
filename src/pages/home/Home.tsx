@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import { ChevronUpCircle } from "lucide-react";
 import SectionPlanning from "./SectionPlanning";
 import { Helmet } from "react-helmet";
+import SectionFaq from "./SectionFaq";
 //import { createPortal } from "react-dom";
 //import Modal from "../../components/UI/modal/Modal";
 
@@ -63,6 +64,7 @@ const Home: React.FC = () => {
                 />
             </Helmet>
             <SectionHome />
+            <SectionFaq />
             <SectionCoaching />
             <SectionAccompagnement />
             <SectionMassages />
