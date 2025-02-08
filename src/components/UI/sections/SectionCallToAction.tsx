@@ -10,7 +10,7 @@ const SectionCallToAction = () => {
                 <h2 className="text-xl text-center md:text-2xl m-2">JE VOUS OFFRE</h2>
                 <h2 className="text-xl text-center md:text-2xl m-2">VOTRE 1er RENDEZ-VOUS !</h2>
             </div>
-            <div itemScope itemType="https://schema.org/PostalAddress" className="flex flex-col md:flex-row gap-4 my-8 animate-pulse">
+            <div itemScope itemType="https://schema.org/PostalAddress" className="flex flex-col md:flex-row gap-4 my-8">
                 <Bouton itemProp="telephone" href="tel:+33651486895" label="+33(0)6 51 48 68 95" />
                 <Bouton itemProp="email" href="mailto:cordajoelle@gmail.com" label="E-MAIL" />
             </div>

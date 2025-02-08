@@ -1,15 +1,17 @@
 import { MapPin } from "lucide-react";
+import BoutonSmall from "../../components/UI/buttons/BoutonSmall";
 
 const SectionHome = () => {
     return (
         <section
             itemScope
             itemType="https://schema.org/Person"
-            className="flex flex-col items-center md:flex-row-reverse md:justify-evenly h-screen md:h-[calc(100vh-56px)] w-full bg-gradient-to-br from-tealB via-tealE to-tealC z-0"
+            className="flex flex-col md:flex-row-reverse items-center md:justify-evenly h-screen md:h-[calc(100vh-56px)] w-full bg-gradient-to-br from-tealB via-tealE to-tealC z-0"
             aria-label="Accueil"
         >
             {/* BOX INFOS */}
             <div className="flex flex-col items-center justify-evenly h-3/5 mx-4 md:mx-0 mt-12 md:mt-0 md:w-1/2 md:h-auto md:pr-10 xl:pr-20">
+                {/* Title */}
                 <div className="md:mb-4">
                     <h1
                         itemProp="jobTitle"
@@ -21,16 +23,16 @@ const SectionHome = () => {
                         <br />
                         COACH SPORTIVE {}
                         <br />
-                        <span
-                            itemProp="addressLocality"
-                            className="text-sm font-normal md:text-lg pt-4"
-                        >
-                            <MapPin className="inline font-normal" />
-                            26300 MARCHES
-                        </span>
                     </h1>
+                    <p
+                        itemProp="addressLocality"
+                        className="text-sm font-normal md:text-lg pt-4 text-center"
+                    >
+                        <MapPin className="inline font-normal" />
+                        26300 MARCHES
+                    </p>
                 </div>
-                <div className="w-full md:max-w-screen-lg">
+                <div className="w-[220px] md:w-full md:px-10">
                     {/* Logo N'Joy */}
                     <svg viewBox="0 0 521.5 295.5">
                         <g fill="#32CBFF">
@@ -64,6 +66,26 @@ const SectionHome = () => {
                     className="h-full md:max-h-[640px]"
                     alt="avatar de joelle corda"
                 />
+                <div className="absolute md:hidden bottom-0 md:right-0 flex flex-col items-center gap-2 pb-2">
+                    <BoutonSmall
+                        itemProp="telephone"
+                        href="tel:+33651486895"
+                        label="Prendre RDV"
+                    />
+                    <p className="text-xs text-center">
+                        Le premier rendez-vous est gratuit !
+                    </p>
+                </div>
+                <div className="hidden md:absolute bottom-0 md:right-0 md:flex flex-col items-center gap-2 pb-2">
+                    <BoutonSmall
+                        itemProp="email"
+                        href="mailto:cordajoelle@gmail.com"
+                        label="Prendre RDV"
+                    />
+                    <p className="text-xs text-center">
+                        Le premier rendez-vous est gratuit !
+                    </p>
+                </div>
                 {/* Plume en rotation */}
                 <div className="absolute top-2 right-6 md:right-4 md:top-5 w-9 lg:w-16 md:w-12 animate-[plumerotate_3s_linear_infinite]">
                     <svg
