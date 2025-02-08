@@ -12,7 +12,7 @@ const Footer = () => {
             {/* Navigation et logo */}
             <div className="flex flex-col md:flex-row w-full gap-8">
                 {/* Logo N'Joy */}
-                <div className="md:w-1/3 px-10">
+                <div className="md:w-1/3 md:px-10">
                     <svg viewBox="0 0 521.5 295.5">
                         <g fill="#32CBFF">
                             <path d="M168.8 198.3h107.1V197H168.8zM27.6 196.9l107.1.1v-1.4H27.6z" />
@@ -37,7 +37,7 @@ const Footer = () => {
                     </p>
                 </div>
                 {/* Navigation */}
-                <div className="md:w-1/3">
+                <div className="md:w-1/3 md:px-10">
                     <h2 className="text-xl pb-4">Parcourir</h2>
                     <div className="flex flex-col gap-2">
                         {NavbarLinks.map((link) => (
@@ -46,7 +46,7 @@ const Footer = () => {
                     </div>
                 </div>
                 {/* Adresse */}
-                <div className="md:w-1/3 flex flex-col items-center">
+                <div className="md:w-1/3 md:px-10 flex flex-col items-center">
                     <div className="hidden md:block">
                         <BoutonSmall
                             itemProp="email"
@@ -70,11 +70,9 @@ const Footer = () => {
                 </div>
             </div>
             {/* Infos légales */}
-            <div className="flex flex-col md:flex-row gap-4">
+            <div className="flex flex-col md:items-start w-full md:flex-row md:gap-4 md:px-10 py-2 border-t-2">
                 <Link to="/cgu">Mentions légales</Link>
                 <Link to="/politique">Politique de confidentialité</Link>
-                <Link to="/cgu">Mentions légales</Link>
-
             </div>
             {/* Createur */}
             <div>

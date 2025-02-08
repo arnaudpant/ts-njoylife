@@ -14,8 +14,8 @@ const Cgu = () => {
             <div className="container mx-auto px-4">
 
                 <div>
-                    <h1 className="font-title text-3xl text-center md:text-4xl font-semibold m-5">CONDITIONS D'UTILISATION</h1>
-                    <p className="text-center">Date de mise à jour: 16 octobre 2023</p>
+                    <h1 className="font-title text-3xl text-center md:text-4xl font-semibold m-5">MENTIONS LEGALES</h1>
+                    <p className="text-center">Date de mise à jour: 08 février 2025</p>
 
                     <h2 className="text-xl md:text-2xl font-semibold mt-8 mb-2">ARTICLE 1 : INFORMATIONS LEGALES</h2>
                     <p>Le site www.joelle-corda-naturopathe.fr est édité gratuitement par Arnaud P<br />
