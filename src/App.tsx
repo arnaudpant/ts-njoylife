@@ -15,6 +15,7 @@ import Audios from "./pages/Audios";
 import Tarifs from "./pages/Tarifs";
 import MassageChiNei from "./pages/massages/MassageChiNei";
 import Sonore from "./pages/massages/Sonore";
+import Politique from "./pages/Politique";
 
 const App: React.FC = () => {
     return (
@@ -29,7 +30,6 @@ const App: React.FC = () => {
                         element={<Stress />}
                     />
                     <Route path="/coaching-sport" element={<Sport />} />
-                    <Route path="/cgu" element={<Cgu />} />
                     <Route
                         path="/massage-californien"
                         element={<MassageCalifornien />}
@@ -45,6 +45,9 @@ const App: React.FC = () => {
                     <Route path="/tarifs" element={<Tarifs />} />
                     <Route path="/ateliers" element={<Ateliers />} />
                     <Route path="/audios" element={<Audios />} />
+                    <Route path="/cgu" element={<Cgu />} />
+                    <Route path="/politique" element={<Politique />} />
+                    <Route path="/cgu" element={<Cgu />} />
                     <Route path="/*" element={<Home />} />
                 </Route>
             </Routes>
