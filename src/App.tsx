@@ -23,7 +23,7 @@ const App: React.FC = () => {
             <Routes>
                 <Route element={<Layout />}>
                     <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
+                    <Route path="/about-naturologie-sophrologie" element={<About />} />
                     <Route path="/coaching-nutrition" element={<Nutrition />} />
                     <Route
                         path="/coaching-gestion-stress"

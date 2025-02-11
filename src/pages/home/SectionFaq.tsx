@@ -5,7 +5,7 @@ import Sections from "../../components/UI/sections/Sections";
 const SectionFaq = () => {
     return (
         <Sections fond="vert">
-            <div className="container px-4">
+            <div className="container flex flex-col justify-center px-4 md:px-8">
                 <h2 className="font-title text-2xl md:text-4xl font-semibold m-5 pt-4 md:pt-8 text-center">
                     LA NATUROPATHIE
                 </h2>

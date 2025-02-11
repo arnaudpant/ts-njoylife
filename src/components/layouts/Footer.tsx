@@ -33,7 +33,7 @@ const Footer = () => {
                     </svg>
                     <p>
                         Joelle Corda, votre naturopathe et sophrologue à Marches
-                        et les alentours de Valence, FRANCE
+                        et Romans-sur-Isère
                     </p>
                 </div>
                 {/* Navigation */}

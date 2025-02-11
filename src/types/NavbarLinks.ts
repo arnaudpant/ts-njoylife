@@ -14,7 +14,7 @@ const NavbarLinks: LiensNavbar[] = [
     },
     {
         title: "A propos",
-        link: "/about"
+        link: "/about-naturologie-sophrologie"
     },
     {
         title: "Relaxations guidées",
