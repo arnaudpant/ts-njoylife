@@ -30,7 +30,7 @@ const SectionCabinet = () => {
             <h2 className="text-2xl py-4">Mon cabinet</h2>
             <div className="flex flex-col md:flex-row flex-wrap gap-8 m-4 justify-center">
                 <img
-                    src="/cabinet/cabinet5.jpeg"
+                    src="/cabinet/cabinet5.webp"
                     alt="interieur du cabinet de consultation"
                     className="md:h-80 rounded-xl shadow-lg"
                 />

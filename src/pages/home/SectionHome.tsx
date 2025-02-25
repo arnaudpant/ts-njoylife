@@ -62,7 +62,7 @@ const SectionHome = () => {
             <div className="relative flex justify-center pb-4 h-2/5 md:w-2/5 lg:w-1/2 md:h-auto md:m-10 z-0">
                 {/* IMG Woman */}
                 <img
-                    src="home/home-woman.png"
+                    src="home/home-woman.webp"
                     className="h-full md:max-h-[640px]"
                     alt="avatar de joelle corda"
                 />
