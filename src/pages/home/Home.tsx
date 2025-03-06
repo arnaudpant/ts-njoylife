@@ -60,7 +60,7 @@ const Home: React.FC = () => {
                 />
                 <meta
                     name="description"
-                    content="Retrouvez votre poids de forme, gérez vos stress et retrouvez une activité physique avec Joelle Corda, naturopathe, sophrologue. 26300 Marches et Romans-sur-Isère"
+                    content="Retrouvez votre poids de forme, gérez vos stress et retrouvez une activité physique avec Joelle Corda, naturopathe, sophrologue. 26300 Marches"
                 />
             </Helmet>
             <SectionHome />
