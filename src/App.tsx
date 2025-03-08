@@ -16,6 +16,7 @@ import Tarifs from "./pages/Tarifs";
 import MassageChiNei from "./pages/massages/MassageChiNei";
 import Sonore from "./pages/massages/Sonore";
 import Politique from "./pages/Politique";
+import Naturopathie from "./pages/Naturopathie";
 
 const App: React.FC = () => {
     return (
@@ -45,6 +46,7 @@ const App: React.FC = () => {
                     <Route path="/tarifs" element={<Tarifs />} />
                     <Route path="/ateliers" element={<Ateliers />} />
                     <Route path="/audios" element={<Audios />} />
+                    <Route path="/role-naturopathie" element={<Naturopathie />} />
                     <Route path="/cgu" element={<Cgu />} />
                     <Route path="/politique" element={<Politique />} />
                     <Route path="/cgu" element={<Cgu />} />

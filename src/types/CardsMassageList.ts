@@ -9,21 +9,21 @@ type CardMassageInfo = {
 export const CardsMassageList: CardMassageInfo[] = [
     {
         imgSrc: "/cards/massages/massage-californien.png",
-        imgAlt: "",
+        imgAlt: "massage californien",
         title: "Californien",
         time: "60min",
         link: "/massage-californien" 
     },
     {
         imgSrc: "/cards/massages/massage-infini.png",
-        imgAlt: "",
+        imgAlt: "massage infini",
         title: "Infini",
         time: "60min",
         link: "/massage-infini" 
     },
     {
         imgSrc: "/cards/massages/massage-kansu.png",
-        imgAlt: "",
+        imgAlt: "massage kansu",
         title: "Kansu",
         time: "30min",
         link: "/massage-kansu" 

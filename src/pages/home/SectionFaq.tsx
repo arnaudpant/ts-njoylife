@@ -1,6 +1,6 @@
+import { Link } from "react-router-dom";
 import Plumes from "../../components/UI/plumes/Plumes";
 import Sections from "../../components/UI/sections/Sections";
-
 
 const SectionFaq = () => {
     return (
@@ -24,14 +24,9 @@ const SectionFaq = () => {
                     j'intègre également des techniques de relaxation et
                     méditation pour harmoniser le lien corps-esprit.
                 </p>
-                <p className="pt-4 text-lg">
-                    La naturopathie propose diverses méthodes naturelles :
-                    phytothérapie, aromathérapie, nutrition, hydrothérapie et
-                    techniques anti-stress. Cette approche préventive et
-                    personnalisée vise à améliorer votre qualité de vie,
-                    renforcer votre immunité et atteindre un équilibre optimal
-                    pour une santé durable et épanouie.
-                </p>
+                <Link to="" className="pt-4 text-lg text-action">
+                    En savoir plus sur la Naturopathie
+                </Link>
             </div>
             <Plumes />
         </Sections>
