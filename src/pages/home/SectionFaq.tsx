@@ -24,7 +24,10 @@ const SectionFaq = () => {
                     j'intègre également des techniques de relaxation et
                     méditation pour harmoniser le lien corps-esprit.
                 </p>
-                <Link to="" className="pt-4 text-lg text-action">
+                <Link
+                    to="/role-naturopathie"
+                    className="pt-4 text-lg text-action"
+                >
                     En savoir plus sur la Naturopathie
                 </Link>
             </div>
