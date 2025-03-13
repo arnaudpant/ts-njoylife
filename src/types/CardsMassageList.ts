@@ -28,5 +28,12 @@ export const CardsMassageList: CardMassageInfo[] = [
         time: "30min",
         link: "/massage-kansu" 
     },
+    {
+        imgSrc: "/cards/massages/massage-kobido.jpg",
+        imgAlt: "massage kobido",
+        title: "Kobido",
+        time: "30min",
+        link: "/massage-kobido"
+    },
 ]
 

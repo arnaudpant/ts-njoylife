@@ -17,6 +17,7 @@ import MassageChiNei from "./pages/massages/MassageChiNei";
 import Sonore from "./pages/massages/Sonore";
 import Politique from "./pages/Politique";
 import Naturopathie from "./pages/Naturopathie";
+import MassageKobido from "./pages/massages/MassageKobido";
 
 const App: React.FC = () => {
     return (
@@ -36,6 +37,7 @@ const App: React.FC = () => {
                         element={<MassageCalifornien />}
                     />
                     <Route path="/massage-infini" element={<MassageInfini />} />
+                    <Route path="/massage-kobido" element={<MassageKobido />} />
                     <Route path="/massage-kansu" element={<MassageKansu />} />
                     <Route
                         path="/massage-dienchan"

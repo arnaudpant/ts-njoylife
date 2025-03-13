@@ -51,6 +51,7 @@ export default {
 				'page-californien': "url('/photos/massage/page-californien.jpg')",
 				'page-infini': "url('/photos/massage/page-infini.jpg')",
 				'page-kansu': "url('/photos/massage/page-kansu.jpg')",
+				'massage-kobido': "url('/photos/massage/massage-kobido.jpg')",
 				'page-dienchan': "url('/photos/massage/page-dienchan.jpg')",
 				'page-chinei': "url('/photos/massage/page-chinei.jpg')",
 				'page-sonore': "url('/photos/massage/sonore.png')",

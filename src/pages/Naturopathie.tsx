@@ -28,9 +28,12 @@ const Naturopathie = () => {
                         C'est quoi la Naturopathie
                     </h1>
                     <h2 className="text-xl md:text-2xl font-semibold mt-8 mb-2">
+                        Naturopathie définition
+                    </h2>
+                    <h3 className="text-lg md:text-xl font-semibold mt-4 mb-2">
                         Une approche holistique de votre santé à Marches et
                         Romans-sur-Isère
-                    </h2>
+                    </h3>
                     <p>
                         La naturopathie est une approche thérapeutique naturelle
                         qui vise à maintenir ou restaurer la santé par des
@@ -74,18 +77,18 @@ const Naturopathie = () => {
                         missions essentielles :
                     </p>
                     <ul>
-                        <li>
+                        <li className="pt-1">
                             <b>Évaluer votre terrain:</b> à travers un bilan de
                             vitalité complet, le naturopathe analyse votre état
                             de santé global, votre mode de vie et vos habitudes.
                         </li>
-                        <li>
+                        <li className="pt-1">
                             <b>Éduquer et informer</b> il vous aide à comprendre
                             les mécanismes naturels de votre corps et vous
                             transmet les connaissances nécessaires pour devenir
                             acteur de votre santé.
                         </li>
-                        <li>
+                        <li className="pt-1">
                             <b>Proposer un programme personnalisé</b> en
                             fonction de votre bilan, il élabore des
                             recommandations sur mesure qui peuvent inclure des
@@ -93,7 +96,7 @@ const Naturopathie = () => {
                             gestion du stress, des exercices physiques adaptés,
                             etc.
                         </li>
-                        <li>
+                        <li className="pt-1">
                             <b>Accompagner sur la durée</b> le naturopathe vous
                             suit dans la mise en œuvre des changements
                             recommandés et ajuste ses conseils selon votre
@@ -117,14 +120,28 @@ const Naturopathie = () => {
                         <li>- Syndrome du côlon irritable</li>
                         <li>- Ballonnements et inconfort digestif</li>
                         <li>- Troubles du métabolisme et du poids</li>
-                        <p className="font-medium">
+                        <p className="font-medium pt-2">
                             Stress et troubles nerveux
                         </p>
                         <li>- Anxiété et stress chronique</li>
                         <li>- Troubles du sommeil</li>
                         <li>- Fatigue persistante et burn-out</li>
                         <li>- Dépression légère</li>
+                        <p className="font-medium pt-2">Troubles hormonaux</p>
+                        <li>- Syndrome prémenstruel</li>
+                        <li>- Troubles de la ménopause</li>
+                        <p className="font-medium pt-2">Douleurs chroniques</p>
+                        <li>- Maux de tête et migraines</li>
+                        <li>- Douleurs articulaires</li>
+                        <li>- Tensions musculaires</li>
                     </ul>
+                    <p className="font-medium py-8">
+                        Il est important de noter que la naturopathie ne
+                        remplace pas la médecine conventionnelle mais agit en
+                        complémentarité, particulièrement pour les maladies
+                        chroniques ou les situations où la médecine classique
+                        atteint ses limites.
+                    </p>
                 </div>
             </Sections>
         </>

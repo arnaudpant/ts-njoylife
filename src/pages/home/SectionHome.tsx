@@ -82,9 +82,7 @@ const SectionHome = () => {
                         href="mailto:cordajoelle@gmail.com"
                         label="Prendre RDV"
                     />
-                    <p className="text-xs text-center">
-                        Le premier rendez-vous est gratuit !
-                    </p>
+                    
                 </div>
                 {/* Plume en rotation */}
                 <div className="absolute top-2 right-6 md:right-4 md:top-5 w-9 lg:w-16 md:w-12 animate-[plumerotate_3s_linear_infinite]">
